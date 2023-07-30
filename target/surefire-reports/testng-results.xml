@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Smoke Runner" duration-ms="10502" started-at="2023-05-10T22:07:48 IST" finished-at="2023-05-10T22:07:59 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.demo.api.cucumber.stepsDefinition.CommonRunner@23d2a7e8]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Smoke" duration-ms="10502" started-at="2023-05-10T22:07:48 IST" finished-at="2023-05-10T22:07:59 IST">
+      <class name="com.demo.api.cucumber.stepsDefinition.CommonRunner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.demo.api.cucumber.stepsDefinition.CommonRunner@23d2a7e8]" name="setUpClass" is-config="true" duration-ms="461" started-at="2023-05-10T22:07:48 IST" finished-at="2023-05-10T22:07:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3d0f8e03]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.demo.api.cucumber.stepsDefinition.CommonRunner@23d2a7e8]" name="runScenario" duration-ms="4125" started-at="2023-05-10T22:07:49 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-10T22:07:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Activities GET API"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Activities"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.demo.api.cucumber.stepsDefinition.CommonRunner@23d2a7e8]" name="runScenario" duration-ms="1250" started-at="2023-05-10T22:07:53 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-10T22:07:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Activities POST API"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Activities"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.demo.api.cucumber.stepsDefinition.CommonRunner@23d2a7e8]" name="runScenario" duration-ms="1778" started-at="2023-05-10T22:07:54 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-10T22:07:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Activity details GET API"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Activities"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.demo.api.cucumber.stepsDefinition.CommonRunner@23d2a7e8]" name="runScenario" duration-ms="1032" started-at="2023-05-10T22:07:56 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-10T22:07:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Activities PUT API"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Activities"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.demo.api.cucumber.stepsDefinition.CommonRunner@23d2a7e8]" name="runScenario" duration-ms="1803" started-at="2023-05-10T22:07:57 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-10T22:07:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Activities DELETE API"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Activities"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.demo.api.cucumber.stepsDefinition.CommonRunner@23d2a7e8]" name="tearDownClass" is-config="true" duration-ms="8" started-at="2023-05-10T22:07:59 IST" finished-at="2023-05-10T22:07:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.demo.api.cucumber.stepsDefinition.CommonRunner -->
+    </test> <!-- Smoke -->
+  </suite> <!-- Smoke Runner -->
+</testng-results>

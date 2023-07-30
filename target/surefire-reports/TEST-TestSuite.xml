@@ -1,0 +1,1370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="11.056" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\91937\IdeaProjects\com.store.dandelionchocolate\com.demo.api.cucumber\target\test-classes;C:\Users\91937\IdeaProjects\com.store.dandelionchocolate\com.demo.api.cucumber\target\classes;C:\Users\91937\.m2\repository\org\assertj\assertj-core\3.11.1\assertj-core-3.11.1.jar;C:\Users\91937\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;C:\Users\91937\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\91937\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\91937\.m2\repository\org\json\json\20080701\json-20080701.jar;C:\Users\91937\.m2\repository\com\googlecode\json-simple\json-simple\1.1\json-simple-1.1.jar;C:\Users\91937\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\91937\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\91937\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\91937\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\91937\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\91937\.m2\repository\io\cucumber\cucumber-java\7.4.1\cucumber-java-7.4.1.jar;C:\Users\91937\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\91937\.m2\repository\io\cucumber\cucumber-core\7.4.1\cucumber-core-7.4.1.jar;C:\Users\91937\.m2\repository\io\cucumber\cucumber-gherkin\7.4.1\cucumber-gherkin-7.4.1.jar;C:\Users\91937\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.4.1\cucumber-gherkin-messages-7.4.1.jar;C:\Users\91937\.m2\repository\io\cucumber\messages\18.0.0\messages-18.0.0.jar;C:\Users\91937\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\91937\.m2\repository\io\cucumber\cucumber-expressions\16.0.0\cucumber-expressions-16.0.0.jar;C:\Users\91937\.m2\repository\io\cucumber\datatable\7.4.1\datatable-7.4.1.jar;C:\Users\91937\.m2\repository\io\cucumber\cucumber-plugin\7.4.1\cucumber-plugin-7.4.1.jar;C:\Users\91937\.m2\repository\io\cucumber\docstring\7.4.1\docstring-7.4.1.jar;C:\Users\91937\.m2\repository\io\cucumber\html-formatter\19.2.0\html-formatter-19.2.0.jar;C:\Users\91937\.m2\repository\io\cucumber\ci-environment\9.0.4\ci-environment-9.0.4.jar;C:\Users\91937\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.19.0\allure-cucumber7-jvm-2.19.0.jar;C:\Users\91937\.m2\repository\io\qameta\allure\allure-java-commons\2.19.0\allure-java-commons-2.19.0.jar;C:\Users\91937\.m2\repository\io\qameta\allure\allure-model\2.19.0\allure-model-2.19.0.jar;C:\Users\91937\.m2\repository\io\cucumber\gherkin\23.0.1\gherkin-23.0.1.jar;C:\Users\91937\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\91937\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\91937\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\91937\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\91937\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\91937\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\91937\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\91937\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\91937\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\91937\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\91937\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\91937\.m2\repository\io\rest-assured\json-schema-validator\5.3.0\json-schema-validator-5.3.0.jar;C:\Users\91937\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\91937\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\Users\91937\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\91937\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\91937\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\91937\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\91937\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\91937\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\91937\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.0\jackson-databind-2.11.0.jar;C:\Users\91937\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.0\jackson-annotations-2.11.0.jar;C:\Users\91937\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.0\jackson-core-2.11.0.jar;C:\Users\91937\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\91937\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\91937\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\91937\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\91937\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\91937\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\91937\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\91937\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\91937\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\91937\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\91937\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\91937\.m2\repository\io\cucumber\cucumber-testng\7.3.4\cucumber-testng-7.3.4.jar;C:\Users\91937\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\91937\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\91937\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\91937\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\91937\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\91937\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_333\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\91937\AppData\Local\Temp\surefire616435281981372210\surefirebooter7925408894635627789.jar C:\Users\91937\AppData\Local\Temp\surefire616435281981372210 2023-05-10T22-07-47_503-jvmRun1 surefire2103793829905401962tmp surefire_03376026159361373261tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\91937\IdeaProjects\com.store.dandelionchocolate\com.demo.api.cucumber\target\test-classes;C:\Users\91937\IdeaProjects\com.store.dandelionchocolate\com.demo.api.cucumber\target\classes;C:\Users\91937\.m2\repository\org\assertj\assertj-core\3.11.1\assertj-core-3.11.1.jar;C:\Users\91937\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;C:\Users\91937\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\91937\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\91937\.m2\repository\org\json\json\20080701\json-20080701.jar;C:\Users\91937\.m2\repository\com\googlecode\json-simple\json-simple\1.1\json-simple-1.1.jar;C:\Users\91937\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\91937\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\91937\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\91937\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\91937\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\91937\.m2\repository\io\cucumber\cucumber-java\7.4.1\cucumber-java-7.4.1.jar;C:\Users\91937\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\91937\.m2\repository\io\cucumber\cucumber-core\7.4.1\cucumber-core-7.4.1.jar;C:\Users\91937\.m2\repository\io\cucumber\cucumber-gherkin\7.4.1\cucumber-gherkin-7.4.1.jar;C:\Users\91937\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.4.1\cucumber-gherkin-messages-7.4.1.jar;C:\Users\91937\.m2\repository\io\cucumber\messages\18.0.0\messages-18.0.0.jar;C:\Users\91937\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\91937\.m2\repository\io\cucumber\cucumber-expressions\16.0.0\cucumber-expressions-16.0.0.jar;C:\Users\91937\.m2\repository\io\cucumber\datatable\7.4.1\datatable-7.4.1.jar;C:\Users\91937\.m2\repository\io\cucumber\cucumber-plugin\7.4.1\cucumber-plugin-7.4.1.jar;C:\Users\91937\.m2\repository\io\cucumber\docstring\7.4.1\docstring-7.4.1.jar;C:\Users\91937\.m2\repository\io\cucumber\html-formatter\19.2.0\html-formatter-19.2.0.jar;C:\Users\91937\.m2\repository\io\cucumber\ci-environment\9.0.4\ci-environment-9.0.4.jar;C:\Users\91937\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.19.0\allure-cucumber7-jvm-2.19.0.jar;C:\Users\91937\.m2\repository\io\qameta\allure\allure-java-commons\2.19.0\allure-java-commons-2.19.0.jar;C:\Users\91937\.m2\repository\io\qameta\allure\allure-model\2.19.0\allure-model-2.19.0.jar;C:\Users\91937\.m2\repository\io\cucumber\gherkin\23.0.1\gherkin-23.0.1.jar;C:\Users\91937\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\91937\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\91937\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\91937\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\91937\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\91937\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\91937\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\91937\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\91937\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\91937\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\91937\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\91937\.m2\repository\io\rest-assured\json-schema-validator\5.3.0\json-schema-validator-5.3.0.jar;C:\Users\91937\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\91937\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\Users\91937\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\91937\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\91937\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\91937\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\91937\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\91937\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\91937\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.0\jackson-databind-2.11.0.jar;C:\Users\91937\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.0\jackson-annotations-2.11.0.jar;C:\Users\91937\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.0\jackson-core-2.11.0.jar;C:\Users\91937\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\91937\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\91937\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\91937\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\91937\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\91937\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\91937\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\91937\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\91937\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\91937\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\91937\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\91937\.m2\repository\io\cucumber\cucumber-testng\7.3.4\cucumber-testng-7.3.4.jar;C:\Users\91937\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\91937\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\91937\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\91937\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\91937\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\91937\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\91937"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_333\jre"/>
+    <property name="basedir" value="C:\Users\91937\IdeaProjects\com.store.dandelionchocolate\com.demo.api.cucumber"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\91937\AppData\Local\Temp\surefire616435281981372210\surefirebooter7925408894635627789.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_333\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_333\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_333-b02"/>
+    <property name="user.name" value="91937"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_333\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\91937\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\91937\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_333"/>
+    <property name="user.dir" value="C:\Users\91937\IdeaProjects\com.store.dandelionchocolate\com.demo.api.cucumber"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_333\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\91937\AppData\Local\Android\Sdk\tools;C:\Users\91937\AppData\Local\Android\Sdk\platform-tools;C:\Users\91937\AppData\Local\Android\Sdk\build-tools;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Users\91937\AppData\Local\Android\Sdk\tools\bin;C:\Users\91937\AppData\Local\Android\Sdk\tools;C:\Users\91937\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\Android\Android Studio\jre\bin;C:\Program Files\Java\jre\bin;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.8.6\bin;C:\Program Files\Java\jdk1.8.0_333\bin;C:\allure-2.19.0\bin;C:\Users\91937\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\91937\AppData\Local\Programs\Python\Python310\;C:\Users\91937\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.2\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.1\bin;;C:\Users\91937\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.333-b02"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_333\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Verify Activities GET API&quot;, &quot;Activities&quot;](1)" classname="com.demo.api.cucumber.stepsDefinition.CommonRunner" time="4.138">
+    <system-out><![CDATA[05-10-2023 22:07:49 DemoStepsDefinition.java INFO  [TestNG-test=Smoke-1] Demo 38 -  Service Name : Activities GET API
+05-10-2023 22:07:49 DemoStepsDefinition.java INFO  [TestNG-test=Smoke-1] Demo 39 -  Thread name : 13
+05-10-2023 22:07:51 BasicClientConnectionManager.java DEBUG [TestNG-test=Smoke-1] conn.BasicClientConnectionManager 161 - Get connection for route {s}->https://fakerestapi.azurewebsites.net:443
+05-10-2023 22:07:51 DefaultClientConnectionOperator.java DEBUG [TestNG-test=Smoke-1] conn.DefaultClientConnectionOperator 177 - Connecting to fakerestapi.azurewebsites.net:443
+05-10-2023 22:07:51 RequestAddCookies.java DEBUG [TestNG-test=Smoke-1] protocol.RequestAddCookies 123 - CookieSpec selected: ignoreCookies
+05-10-2023 22:07:51 RequestAuthCache.java DEBUG [TestNG-test=Smoke-1] protocol.RequestAuthCache 77 - Auth cache not set in the context
+05-10-2023 22:07:51 RequestTargetAuthentication.java DEBUG [TestNG-test=Smoke-1] protocol.RequestTargetAuthentication 80 - Target auth state: UNCHALLENGED
+05-10-2023 22:07:52 RequestProxyAuthentication.java DEBUG [TestNG-test=Smoke-1] protocol.RequestProxyAuthentication 89 - Proxy auth state: UNCHALLENGED
+05-10-2023 22:07:52 DefaultRequestDirector.java DEBUG [TestNG-test=Smoke-1] client.DefaultHttpClient 677 - Attempt 1 to execute request
+05-10-2023 22:07:52 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] conn.DefaultClientConnection 274 - Sending request: GET /api/v1/activities HTTP/1.1
+05-10-2023 22:07:52 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "GET /api/v1/activities HTTP/1.1[\r][\n]"
+05-10-2023 22:07:52 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "Accept: */*[\r][\n]"
+05-10-2023 22:07:52 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "Host: fakerestapi.azurewebsites.net[\r][\n]"
+05-10-2023 22:07:52 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "Connection: Keep-Alive[\r][\n]"
+05-10-2023 22:07:52 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_333)[\r][\n]"
+05-10-2023 22:07:52 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+05-10-2023 22:07:52 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "[\r][\n]"
+05-10-2023 22:07:52 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 278 - >> GET /api/v1/activities HTTP/1.1
+05-10-2023 22:07:52 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 281 - >> Accept: */*
+05-10-2023 22:07:52 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 281 - >> Host: fakerestapi.azurewebsites.net
+05-10-2023 22:07:52 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 281 - >> Connection: Keep-Alive
+05-10-2023 22:07:52 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_333)
+05-10-2023 22:07:52 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 281 - >> Accept-Encoding: gzip,deflate
+05-10-2023 22:07:52 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "HTTP/1.1 200 OK[\r][\n]"
+05-10-2023 22:07:52 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "Content-Type: application/json; charset=utf-8; v=1.0[\r][\n]"
+05-10-2023 22:07:52 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "Date: Wed, 10 May 2023 16:37:51 GMT[\r][\n]"
+05-10-2023 22:07:52 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "Server: Kestrel[\r][\n]"
+05-10-2023 22:07:52 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "Transfer-Encoding: chunked[\r][\n]"
+05-10-2023 22:07:52 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "api-supported-versions: 1.0[\r][\n]"
+05-10-2023 22:07:52 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "[\r][\n]"
+05-10-2023 22:07:52 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] conn.DefaultClientConnection 259 - Receiving response: HTTP/1.1 200 OK
+05-10-2023 22:07:52 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 262 - << HTTP/1.1 200 OK
+05-10-2023 22:07:52 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 265 - << Content-Type: application/json; charset=utf-8; v=1.0
+05-10-2023 22:07:52 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 265 - << Date: Wed, 10 May 2023 16:37:51 GMT
+05-10-2023 22:07:52 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 265 - << Server: Kestrel
+05-10-2023 22:07:52 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 265 - << Transfer-Encoding: chunked
+05-10-2023 22:07:52 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 265 - << api-supported-versions: 1.0
+05-10-2023 22:07:52 DefaultRequestDirector.java DEBUG [TestNG-test=Smoke-1] client.DefaultHttpClient 504 - Connection can be kept alive indefinitely
+05-10-2023 22:07:52 HTTPBuilder.java DEBUG [TestNG-test=Smoke-1] internal.RestAssuredHttpBuilder 553 - Parsing response as: application/json; charset=utf-8; v=1.0
+05-10-2023 22:07:52 HTTPBuilder.java DEBUG [TestNG-test=Smoke-1] internal.RestAssuredHttpBuilder 556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+05-10-2023 22:07:52 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 158 - 
+05-10-2023 22:07:52 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 159 - http://localhost
+05-10-2023 22:07:52 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 160 - 
+05-10-2023 22:07:52 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 161 - 
+05-10-2023 22:07:52 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "b1b[\r][\n]"
+05-10-2023 22:07:52 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 87 -  << "[{"id":1,"title":"Activity 1","dueDate":"2023-05-10T17:37:51.932645+00:00","completed":false},{"id":2,"title":"Activity 2","dueDate":"2023-05-10T18:37:51.9326472+00:00","completed":true},{"id":3,"title":"Activity 3","dueDate":"2023-05-10T19:37:51.9326476+00:00","completed":false},{"id":4,"title":"Activity 4","dueDate":"2023-05-10T20:37:51.9326479+00:00","completed":true},{"id":5,"title":"Activity 5","dueDate":"2023-05-10T21:37:51.9326481+00:00","completed":false},{"id":6,"title":"Activity 6","dueDate":"2023-05-10T22:37:51.9326487+00:00","completed":true},{"id":7,"title":"Activity 7","dueDate":"2023-05-10T23:37:51.9326489+00:00","completed":false},{"id":8,"title":"Activity 8","dueDate":"2023-05-11T00:37:51.9326492+00:00","completed":true},{"id":9,"title":"Activity 9","dueDate":"2023-05-11T01:37:51.9326495+00:00","completed":false},{"id":10,"title":"Activity 10","dueDate":"2023-05-11T02:37:51.93265+00:00","completed":true},{"id":11,"title":"Activity 11","dueDate":"2023-05-11T03:37:51.9326504+00:00","completed":false},{"id":12,"title":"Activity 12","dueDate":"2023-05-11T04:37:51.9326506+00:00","completed":true},{"id":13,"title":"Activity 13","dueDate":"2023-05-11T05:37:51.9326509+00:00","completed":false},{"id":14,"title":"Activity 14","dueDate":"2023-05-11T06:37:51.9326512+00:00","completed":true},{"id":15,"title":"Activity 15","dueDate":"2023-05-11T07:37:51.9326514+00:00","completed":false},{"id":16,"title":"Activity 16","dueDate":"2023-05-11T08:37:51.9326517+00:00","completed":true},{"id":17,"title":"Activity 17","dueDate":"2023-05-11T09:37:51.932652+00:00","completed":false},{"id":18,"title":"Activity 18","dueDate":"2023-05-11T10:37:51.9326524+00:00","completed":true},{"id":19,"title":"Activity 19","dueDate":"2023-05-11T11:37:51.9326526+00:00","completed":false},{"id":20,"title":"Activity 20","dueDate":"2023-05-11T12:37:51.9326529+00:00","completed":true},{"id":21,"title":"Activity 21","dueDate":"2023-05-11T13:37:51.9326532+00:00","completed":false},{"id":22,"title":"Activity 22","dueDate":"2023-05-11T14:37:51.9326534+00:00","completed":true},{"id":23,"title":"Activity 23","dueDate":"2023-05-11T15:37:51.9326537+00:00","completed":false},{"id":24,"title":"Activity 24","dueDate":"2023-05-11T16:37:51.9326539+00:00","completed":true},{"id":25,"title":"Activity 25","dueDate":"2023-05-11T17:37:51.9326542+00:00","completed":false},{"id":26,"title":"Activity 26","dueDate":"2023-05-11T18:37:51.9326545+00:00","completed":true},{"id":27,"title":"Activity 27","dueDate":"2023-05-11T19:37:51.9326547+00:00","completed":false},{"id":28,"title":"Activity 28","dueDate":"2023-05-11T20:37:51.932655+00:00","completed":true},{"id":29,"title":"Activity 29","dueDate":"2023-05-11T21:37:51.9326553+00:00","completed":false},{"id":30,"title":"Activity 30","dueDate":"2023-05-11T22:37:51.9326555+00:00","completed":true}]"
+05-10-2023 22:07:52 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "[\r][\n]"
+05-10-2023 22:07:52 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "0[\r][\n]"
+05-10-2023 22:07:52 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "[\r][\n]"
+05-10-2023 22:07:52 BasicClientConnectionManager.java DEBUG [TestNG-test=Smoke-1] conn.BasicClientConnectionManager 200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5796bcbe
+05-10-2023 22:07:52 BasicClientConnectionManager.java DEBUG [TestNG-test=Smoke-1] conn.BasicClientConnectionManager 225 - Connection can be kept alive indefinitely
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8; v=1.0
+Date: Wed, 10 May 2023 16:37:51 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+api-supported-versions: 1.0
+
+[
+    {
+        "id": 1,
+        "title": "Activity 1",
+        "dueDate": "2023-05-10T17:37:51.932645+00:00",
+        "completed": false
+    },
+    {
+        "id": 2,
+        "title": "Activity 2",
+        "dueDate": "2023-05-10T18:37:51.9326472+00:00",
+        "completed": true
+    },
+    {
+        "id": 3,
+        "title": "Activity 3",
+        "dueDate": "2023-05-10T19:37:51.9326476+00:00",
+        "completed": false
+    },
+    {
+        "id": 4,
+        "title": "Activity 4",
+        "dueDate": "2023-05-10T20:37:51.9326479+00:00",
+        "completed": true
+    },
+    {
+        "id": 5,
+        "title": "Activity 5",
+        "dueDate": "2023-05-10T21:37:51.9326481+00:00",
+        "completed": false
+    },
+    {
+        "id": 6,
+        "title": "Activity 6",
+        "dueDate": "2023-05-10T22:37:51.9326487+00:00",
+        "completed": true
+    },
+    {
+        "id": 7,
+        "title": "Activity 7",
+        "dueDate": "2023-05-10T23:37:51.9326489+00:00",
+        "completed": false
+    },
+    {
+        "id": 8,
+        "title": "Activity 8",
+        "dueDate": "2023-05-11T00:37:51.9326492+00:00",
+        "completed": true
+    },
+    {
+        "id": 9,
+        "title": "Activity 9",
+        "dueDate": "2023-05-11T01:37:51.9326495+00:00",
+        "completed": false
+    },
+    {
+        "id": 10,
+        "title": "Activity 10",
+        "dueDate": "2023-05-11T02:37:51.93265+00:00",
+        "completed": true
+    },
+    {
+        "id": 11,
+        "title": "Activity 11",
+        "dueDate": "2023-05-11T03:37:51.9326504+00:00",
+        "completed": false
+    },
+    {
+        "id": 12,
+        "title": "Activity 12",
+        "dueDate": "2023-05-11T04:37:51.9326506+00:00",
+        "completed": true
+    },
+    {
+        "id": 13,
+        "title": "Activity 13",
+        "dueDate": "2023-05-11T05:37:51.9326509+00:00",
+        "completed": false
+    },
+    {
+        "id": 14,
+        "title": "Activity 14",
+        "dueDate": "2023-05-11T06:37:51.9326512+00:00",
+        "completed": true
+    },
+    {
+        "id": 15,
+        "title": "Activity 15",
+        "dueDate": "2023-05-11T07:37:51.9326514+00:00",
+        "completed": false
+    },
+    {
+        "id": 16,
+        "title": "Activity 16",
+        "dueDate": "2023-05-11T08:37:51.9326517+00:00",
+        "completed": true
+    },
+    {
+        "id": 17,
+        "title": "Activity 17",
+        "dueDate": "2023-05-11T09:37:51.932652+00:00",
+        "completed": false
+    },
+    {
+        "id": 18,
+        "title": "Activity 18",
+        "dueDate": "2023-05-11T10:37:51.9326524+00:00",
+        "completed": true
+    },
+    {
+        "id": 19,
+        "title": "Activity 19",
+        "dueDate": "2023-05-11T11:37:51.9326526+00:00",
+        "completed": false
+    },
+    {
+        "id": 20,
+        "title": "Activity 20",
+        "dueDate": "2023-05-11T12:37:51.9326529+00:00",
+        "completed": true
+    },
+    {
+        "id": 21,
+        "title": "Activity 21",
+        "dueDate": "2023-05-11T13:37:51.9326532+00:00",
+        "completed": false
+    },
+    {
+        "id": 22,
+        "title": "Activity 22",
+        "dueDate": "2023-05-11T14:37:51.9326534+00:00",
+        "completed": true
+    },
+    {
+        "id": 23,
+        "title": "Activity 23",
+        "dueDate": "2023-05-11T15:37:51.9326537+00:00",
+        "completed": false
+    },
+    {
+        "id": 24,
+        "title": "Activity 24",
+        "dueDate": "2023-05-11T16:37:51.9326539+00:00",
+        "completed": true
+    },
+    {
+        "id": 25,
+        "title": "Activity 25",
+        "dueDate": "2023-05-11T17:37:51.9326542+00:00",
+        "completed": false
+    },
+    {
+        "id": 26,
+        "title": "Activity 26",
+        "dueDate": "2023-05-11T18:37:51.9326545+00:00",
+        "completed": true
+    },
+    {
+        "id": 27,
+        "title": "Activity 27",
+        "dueDate": "2023-05-11T19:37:51.9326547+00:00",
+        "completed": false
+    },
+    {
+        "id": 28,
+        "title": "Activity 28",
+        "dueDate": "2023-05-11T20:37:51.932655+00:00",
+        "completed": true
+    },
+    {
+        "id": 29,
+        "title": "Activity 29",
+        "dueDate": "2023-05-11T21:37:51.9326553+00:00",
+        "completed": false
+    },
+    {
+        "id": 30,
+        "title": "Activity 30",
+        "dueDate": "2023-05-11T22:37:51.9326555+00:00",
+        "completed": true
+    }
+]
+05-10-2023 22:07:52 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 165 -  API Response Status Code : 200
+05-10-2023 22:07:52 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 166 -  API Response Status Line : HTTP/1.1 200 OK
+05-10-2023 22:07:52 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 167 -  API Response Cookie : {}
+05-10-2023 22:07:52 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 168 -  API Response Time : 1759
+05-10-2023 22:07:52 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 169 -  API Headers : Content-Type=application/json; charset=utf-8; v=1.0
+Date=Wed, 10 May 2023 16:37:51 GMT
+Server=Kestrel
+Transfer-Encoding=chunked
+api-supported-versions=1.0
+[
+    {
+        "id": 1,
+        "title": "Activity 1",
+        "dueDate": "2023-05-10T17:37:51.932645+00:00",
+        "completed": false
+    },
+    {
+        "id": 2,
+        "title": "Activity 2",
+        "dueDate": "2023-05-10T18:37:51.9326472+00:00",
+        "completed": true
+    },
+    {
+        "id": 3,
+        "title": "Activity 3",
+        "dueDate": "2023-05-10T19:37:51.9326476+00:00",
+        "completed": false
+    },
+    {
+        "id": 4,
+        "title": "Activity 4",
+        "dueDate": "2023-05-10T20:37:51.9326479+00:00",
+        "completed": true
+    },
+    {
+        "id": 5,
+        "title": "Activity 5",
+        "dueDate": "2023-05-10T21:37:51.9326481+00:00",
+        "completed": false
+    },
+    {
+        "id": 6,
+        "title": "Activity 6",
+        "dueDate": "2023-05-10T22:37:51.9326487+00:00",
+        "completed": true
+    },
+    {
+        "id": 7,
+        "title": "Activity 7",
+        "dueDate": "2023-05-10T23:37:51.9326489+00:00",
+        "completed": false
+    },
+    {
+        "id": 8,
+        "title": "Activity 8",
+        "dueDate": "2023-05-11T00:37:51.9326492+00:00",
+        "completed": true
+    },
+    {
+        "id": 9,
+        "title": "Activity 9",
+        "dueDate": "2023-05-11T01:37:51.9326495+00:00",
+        "completed": false
+    },
+    {
+        "id": 10,
+        "title": "Activity 10",
+        "dueDate": "2023-05-11T02:37:51.93265+00:00",
+        "completed": true
+    },
+    {
+        "id": 11,
+        "title": "Activity 11",
+        "dueDate": "2023-05-11T03:37:51.9326504+00:00",
+        "completed": false
+    },
+    {
+        "id": 12,
+        "title": "Activity 12",
+        "dueDate": "2023-05-11T04:37:51.9326506+00:00",
+        "completed": true
+    },
+    {
+        "id": 13,
+        "title": "Activity 13",
+        "dueDate": "2023-05-11T05:37:51.9326509+00:00",
+        "completed": false
+    },
+    {
+        "id": 14,
+        "title": "Activity 14",
+        "dueDate": "2023-05-11T06:37:51.9326512+00:00",
+        "completed": true
+    },
+    {
+        "id": 15,
+        "title": "Activity 15",
+        "dueDate": "2023-05-11T07:37:51.9326514+00:00",
+        "completed": false
+    },
+    {
+        "id": 16,
+        "title": "Activity 16",
+        "dueDate": "2023-05-11T08:37:51.9326517+00:00",
+        "completed": true
+    },
+    {
+        "id": 17,
+        "title": "Activity 17",
+        "dueDate": "2023-05-11T09:37:51.932652+00:00",
+        "completed": false
+    },
+    {
+        "id": 18,
+        "title": "Activity 18",
+        "dueDate": "2023-05-11T10:37:51.9326524+00:00",
+        "completed": true
+    },
+    {
+        "id": 19,
+        "title": "Activity 19",
+        "dueDate": "2023-05-11T11:37:51.9326526+00:00",
+        "completed": false
+    },
+    {
+        "id": 20,
+        "title": "Activity 20",
+        "dueDate": "2023-05-11T12:37:51.9326529+00:00",
+        "completed": true
+    },
+    {
+        "id": 21,
+        "title": "Activity 21",
+        "dueDate": "2023-05-11T13:37:51.9326532+00:00",
+        "completed": false
+    },
+    {
+        "id": 22,
+        "title": "Activity 22",
+        "dueDate": "2023-05-11T14:37:51.9326534+00:00",
+        "completed": true
+    },
+    {
+        "id": 23,
+        "title": "Activity 23",
+        "dueDate": "2023-05-11T15:37:51.9326537+00:00",
+        "completed": false
+    },
+    {
+        "id": 24,
+        "title": "Activity 24",
+        "dueDate": "2023-05-11T16:37:51.9326539+00:00",
+        "completed": true
+    },
+    {
+        "id": 25,
+        "title": "Activity 25",
+        "dueDate": "2023-05-11T17:37:51.9326542+00:00",
+        "completed": false
+    },
+    {
+        "id": 26,
+        "title": "Activity 26",
+        "dueDate": "2023-05-11T18:37:51.9326545+00:00",
+        "completed": true
+    },
+    {
+        "id": 27,
+        "title": "Activity 27",
+        "dueDate": "2023-05-11T19:37:51.9326547+00:00",
+        "completed": false
+    },
+    {
+        "id": 28,
+        "title": "Activity 28",
+        "dueDate": "2023-05-11T20:37:51.932655+00:00",
+        "completed": true
+    },
+    {
+        "id": 29,
+        "title": "Activity 29",
+        "dueDate": "2023-05-11T21:37:51.9326553+00:00",
+        "completed": false
+    },
+    {
+        "id": 30,
+        "title": "Activity 30",
+        "dueDate": "2023-05-11T22:37:51.9326555+00:00",
+        "completed": true
+    }
+]
+[
+    {
+        "id": 1,
+        "title": "Activity 1",
+        "dueDate": "2023-05-10T17:37:51.932645+00:00",
+        "completed": false
+    },
+    {
+        "id": 2,
+        "title": "Activity 2",
+        "dueDate": "2023-05-10T18:37:51.9326472+00:00",
+        "completed": true
+    },
+    {
+        "id": 3,
+        "title": "Activity 3",
+        "dueDate": "2023-05-10T19:37:51.9326476+00:00",
+        "completed": false
+    },
+    {
+        "id": 4,
+        "title": "Activity 4",
+        "dueDate": "2023-05-10T20:37:51.9326479+00:00",
+        "completed": true
+    },
+    {
+        "id": 5,
+        "title": "Activity 5",
+        "dueDate": "2023-05-10T21:37:51.9326481+00:00",
+        "completed": false
+    },
+    {
+        "id": 6,
+        "title": "Activity 6",
+        "dueDate": "2023-05-10T22:37:51.9326487+00:00",
+        "completed": true
+    },
+    {
+        "id": 7,
+        "title": "Activity 7",
+        "dueDate": "2023-05-10T23:37:51.9326489+00:00",
+        "completed": false
+    },
+    {
+        "id": 8,
+        "title": "Activity 8",
+        "dueDate": "2023-05-11T00:37:51.9326492+00:00",
+        "completed": true
+    },
+    {
+        "id": 9,
+        "title": "Activity 9",
+        "dueDate": "2023-05-11T01:37:51.9326495+00:00",
+        "completed": false
+    },
+    {
+        "id": 10,
+        "title": "Activity 10",
+        "dueDate": "2023-05-11T02:37:51.93265+00:00",
+        "completed": true
+    },
+    {
+        "id": 11,
+        "title": "Activity 11",
+        "dueDate": "2023-05-11T03:37:51.9326504+00:00",
+        "completed": false
+    },
+    {
+        "id": 12,
+        "title": "Activity 12",
+        "dueDate": "2023-05-11T04:37:51.9326506+00:00",
+        "completed": true
+    },
+    {
+        "id": 13,
+        "title": "Activity 13",
+        "dueDate": "2023-05-11T05:37:51.9326509+00:00",
+        "completed": false
+    },
+    {
+        "id": 14,
+        "title": "Activity 14",
+        "dueDate": "2023-05-11T06:37:51.9326512+00:00",
+        "completed": true
+    },
+    {
+        "id": 15,
+        "title": "Activity 15",
+        "dueDate": "2023-05-11T07:37:51.9326514+00:00",
+        "completed": false
+    },
+    {
+        "id": 16,
+        "title": "Activity 16",
+        "dueDate": "2023-05-11T08:37:51.9326517+00:00",
+        "completed": true
+    },
+    {
+        "id": 17,
+        "title": "Activity 17",
+        "dueDate": "2023-05-11T09:37:51.932652+00:00",
+        "completed": false
+    },
+    {
+        "id": 18,
+        "title": "Activity 18",
+        "dueDate": "2023-05-11T10:37:51.9326524+00:00",
+        "completed": true
+    },
+    {
+        "id": 19,
+        "title": "Activity 19",
+        "dueDate": "2023-05-11T11:37:51.9326526+00:00",
+        "completed": false
+    },
+    {
+        "id": 20,
+        "title": "Activity 20",
+        "dueDate": "2023-05-11T12:37:51.9326529+00:00",
+        "completed": true
+    },
+    {
+        "id": 21,
+        "title": "Activity 21",
+        "dueDate": "2023-05-11T13:37:51.9326532+00:00",
+        "completed": false
+    },
+    {
+        "id": 22,
+        "title": "Activity 22",
+        "dueDate": "2023-05-11T14:37:51.9326534+00:00",
+        "completed": true
+    },
+    {
+        "id": 23,
+        "title": "Activity 23",
+        "dueDate": "2023-05-11T15:37:51.9326537+00:00",
+        "completed": false
+    },
+    {
+        "id": 24,
+        "title": "Activity 24",
+        "dueDate": "2023-05-11T16:37:51.9326539+00:00",
+        "completed": true
+    },
+    {
+        "id": 25,
+        "title": "Activity 25",
+        "dueDate": "2023-05-11T17:37:51.9326542+00:00",
+        "completed": false
+    },
+    {
+        "id": 26,
+        "title": "Activity 26",
+        "dueDate": "2023-05-11T18:37:51.9326545+00:00",
+        "completed": true
+    },
+    {
+        "id": 27,
+        "title": "Activity 27",
+        "dueDate": "2023-05-11T19:37:51.9326547+00:00",
+        "completed": false
+    },
+    {
+        "id": 28,
+        "title": "Activity 28",
+        "dueDate": "2023-05-11T20:37:51.932655+00:00",
+        "completed": true
+    },
+    {
+        "id": 29,
+        "title": "Activity 29",
+        "dueDate": "2023-05-11T21:37:51.9326553+00:00",
+        "completed": false
+    },
+    {
+        "id": 30,
+        "title": "Activity 30",
+        "dueDate": "2023-05-11T22:37:51.9326555+00:00",
+        "completed": true
+    }
+]
+05-10-2023 22:07:52 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 171 -  API Response Body : [
+    {
+        "id": 1,
+        "title": "Activity 1",
+        "dueDate": "2023-05-10T17:37:51.932645+00:00",
+        "completed": false
+    },
+    {
+        "id": 2,
+        "title": "Activity 2",
+        "dueDate": "2023-05-10T18:37:51.9326472+00:00",
+        "completed": true
+    },
+    {
+        "id": 3,
+        "title": "Activity 3",
+        "dueDate": "2023-05-10T19:37:51.9326476+00:00",
+        "completed": false
+    },
+    {
+        "id": 4,
+        "title": "Activity 4",
+        "dueDate": "2023-05-10T20:37:51.9326479+00:00",
+        "completed": true
+    },
+    {
+        "id": 5,
+        "title": "Activity 5",
+        "dueDate": "2023-05-10T21:37:51.9326481+00:00",
+        "completed": false
+    },
+    {
+        "id": 6,
+        "title": "Activity 6",
+        "dueDate": "2023-05-10T22:37:51.9326487+00:00",
+        "completed": true
+    },
+    {
+        "id": 7,
+        "title": "Activity 7",
+        "dueDate": "2023-05-10T23:37:51.9326489+00:00",
+        "completed": false
+    },
+    {
+        "id": 8,
+        "title": "Activity 8",
+        "dueDate": "2023-05-11T00:37:51.9326492+00:00",
+        "completed": true
+    },
+    {
+        "id": 9,
+        "title": "Activity 9",
+        "dueDate": "2023-05-11T01:37:51.9326495+00:00",
+        "completed": false
+    },
+    {
+        "id": 10,
+        "title": "Activity 10",
+        "dueDate": "2023-05-11T02:37:51.93265+00:00",
+        "completed": true
+    },
+    {
+        "id": 11,
+        "title": "Activity 11",
+        "dueDate": "2023-05-11T03:37:51.9326504+00:00",
+        "completed": false
+    },
+    {
+        "id": 12,
+        "title": "Activity 12",
+        "dueDate": "2023-05-11T04:37:51.9326506+00:00",
+        "completed": true
+    },
+    {
+        "id": 13,
+        "title": "Activity 13",
+        "dueDate": "2023-05-11T05:37:51.9326509+00:00",
+        "completed": false
+    },
+    {
+        "id": 14,
+        "title": "Activity 14",
+        "dueDate": "2023-05-11T06:37:51.9326512+00:00",
+        "completed": true
+    },
+    {
+        "id": 15,
+        "title": "Activity 15",
+        "dueDate": "2023-05-11T07:37:51.9326514+00:00",
+        "completed": false
+    },
+    {
+        "id": 16,
+        "title": "Activity 16",
+        "dueDate": "2023-05-11T08:37:51.9326517+00:00",
+        "completed": true
+    },
+    {
+        "id": 17,
+        "title": "Activity 17",
+        "dueDate": "2023-05-11T09:37:51.932652+00:00",
+        "completed": false
+    },
+    {
+        "id": 18,
+        "title": "Activity 18",
+        "dueDate": "2023-05-11T10:37:51.9326524+00:00",
+        "completed": true
+    },
+    {
+        "id": 19,
+        "title": "Activity 19",
+        "dueDate": "2023-05-11T11:37:51.9326526+00:00",
+        "completed": false
+    },
+    {
+        "id": 20,
+        "title": "Activity 20",
+        "dueDate": "2023-05-11T12:37:51.9326529+00:00",
+        "completed": true
+    },
+    {
+        "id": 21,
+        "title": "Activity 21",
+        "dueDate": "2023-05-11T13:37:51.9326532+00:00",
+        "completed": false
+    },
+    {
+        "id": 22,
+        "title": "Activity 22",
+        "dueDate": "2023-05-11T14:37:51.9326534+00:00",
+        "completed": true
+    },
+    {
+        "id": 23,
+        "title": "Activity 23",
+        "dueDate": "2023-05-11T15:37:51.9326537+00:00",
+        "completed": false
+    },
+    {
+        "id": 24,
+        "title": "Activity 24",
+        "dueDate": "2023-05-11T16:37:51.9326539+00:00",
+        "completed": true
+    },
+    {
+        "id": 25,
+        "title": "Activity 25",
+        "dueDate": "2023-05-11T17:37:51.9326542+00:00",
+        "completed": false
+    },
+    {
+        "id": 26,
+        "title": "Activity 26",
+        "dueDate": "2023-05-11T18:37:51.9326545+00:00",
+        "completed": true
+    },
+    {
+        "id": 27,
+        "title": "Activity 27",
+        "dueDate": "2023-05-11T19:37:51.9326547+00:00",
+        "completed": false
+    },
+    {
+        "id": 28,
+        "title": "Activity 28",
+        "dueDate": "2023-05-11T20:37:51.932655+00:00",
+        "completed": true
+    },
+    {
+        "id": 29,
+        "title": "Activity 29",
+        "dueDate": "2023-05-11T21:37:51.9326553+00:00",
+        "completed": false
+    },
+    {
+        "id": 30,
+        "title": "Activity 30",
+        "dueDate": "2023-05-11T22:37:51.9326555+00:00",
+        "completed": true
+    }
+]
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify Activities POST API&quot;, &quot;Activities&quot;](2)" classname="com.demo.api.cucumber.stepsDefinition.CommonRunner" time="1.233">
+    <system-out><![CDATA[05-10-2023 22:07:53 DemoStepsDefinition.java INFO  [TestNG-test=Smoke-1] Demo 38 -  Service Name : Activities POST API
+05-10-2023 22:07:53 DemoStepsDefinition.java INFO  [TestNG-test=Smoke-1] Demo 39 -  Thread name : 13
+05-10-2023 22:07:53 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 90 -  Request Body is : {
+  "id" : 4,
+  "title" : "HMSPK",
+  "dueDate" : "2023-03-20T11:39:04.146Z",
+  "completed" : true
+}
+05-10-2023 22:07:53 BasicClientConnectionManager.java DEBUG [TestNG-test=Smoke-1] conn.BasicClientConnectionManager 161 - Get connection for route {s}->https://fakerestapi.azurewebsites.net:443
+05-10-2023 22:07:53 DefaultClientConnectionOperator.java DEBUG [TestNG-test=Smoke-1] conn.DefaultClientConnectionOperator 177 - Connecting to fakerestapi.azurewebsites.net:443
+05-10-2023 22:07:54 RequestAddCookies.java DEBUG [TestNG-test=Smoke-1] protocol.RequestAddCookies 123 - CookieSpec selected: ignoreCookies
+05-10-2023 22:07:54 RequestAuthCache.java DEBUG [TestNG-test=Smoke-1] protocol.RequestAuthCache 77 - Auth cache not set in the context
+05-10-2023 22:07:54 RequestTargetAuthentication.java DEBUG [TestNG-test=Smoke-1] protocol.RequestTargetAuthentication 80 - Target auth state: UNCHALLENGED
+05-10-2023 22:07:54 RequestProxyAuthentication.java DEBUG [TestNG-test=Smoke-1] protocol.RequestProxyAuthentication 89 - Proxy auth state: UNCHALLENGED
+05-10-2023 22:07:54 DefaultRequestDirector.java DEBUG [TestNG-test=Smoke-1] client.DefaultHttpClient 677 - Attempt 1 to execute request
+05-10-2023 22:07:54 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] conn.DefaultClientConnection 274 - Sending request: POST /api/v1/activities HTTP/1.1
+05-10-2023 22:07:54 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "POST /api/v1/activities HTTP/1.1[\r][\n]"
+05-10-2023 22:07:54 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "Accept: */*[\r][\n]"
+05-10-2023 22:07:54 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "Content-Type: application/json; charset=utf-8; v=1.0[\r][\n]"
+05-10-2023 22:07:54 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "Content-Length: 104[\r][\n]"
+05-10-2023 22:07:54 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "Host: fakerestapi.azurewebsites.net[\r][\n]"
+05-10-2023 22:07:54 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "Connection: Keep-Alive[\r][\n]"
+05-10-2023 22:07:54 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_333)[\r][\n]"
+05-10-2023 22:07:54 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+05-10-2023 22:07:54 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "[\r][\n]"
+05-10-2023 22:07:54 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 278 - >> POST /api/v1/activities HTTP/1.1
+05-10-2023 22:07:54 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 281 - >> Accept: */*
+05-10-2023 22:07:54 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 281 - >> Content-Type: application/json; charset=utf-8; v=1.0
+05-10-2023 22:07:54 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 281 - >> Content-Length: 104
+05-10-2023 22:07:54 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 281 - >> Host: fakerestapi.azurewebsites.net
+05-10-2023 22:07:54 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 281 - >> Connection: Keep-Alive
+05-10-2023 22:07:54 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_333)
+05-10-2023 22:07:54 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 281 - >> Accept-Encoding: gzip,deflate
+05-10-2023 22:07:54 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "{[\r][\n]"
+05-10-2023 22:07:54 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "  "id" : 4,[\r][\n]"
+05-10-2023 22:07:54 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "  "title" : "HMSPK",[\r][\n]"
+05-10-2023 22:07:54 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "  "dueDate" : "2023-03-20T11:39:04.146Z",[\r][\n]"
+05-10-2023 22:07:54 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "  "completed" : true[\r][\n]"
+05-10-2023 22:07:54 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 87 -  >> "}"
+05-10-2023 22:07:54 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "HTTP/1.1 200 OK[\r][\n]"
+05-10-2023 22:07:54 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "Content-Type: application/json; charset=utf-8; v=1.0[\r][\n]"
+05-10-2023 22:07:54 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "Date: Wed, 10 May 2023 16:37:54 GMT[\r][\n]"
+05-10-2023 22:07:54 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "Server: Kestrel[\r][\n]"
+05-10-2023 22:07:54 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "Transfer-Encoding: chunked[\r][\n]"
+05-10-2023 22:07:54 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "api-supported-versions: 1.0[\r][\n]"
+05-10-2023 22:07:54 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "[\r][\n]"
+05-10-2023 22:07:54 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] conn.DefaultClientConnection 259 - Receiving response: HTTP/1.1 200 OK
+05-10-2023 22:07:54 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 262 - << HTTP/1.1 200 OK
+05-10-2023 22:07:54 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 265 - << Content-Type: application/json; charset=utf-8; v=1.0
+05-10-2023 22:07:54 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 265 - << Date: Wed, 10 May 2023 16:37:54 GMT
+05-10-2023 22:07:54 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 265 - << Server: Kestrel
+05-10-2023 22:07:54 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 265 - << Transfer-Encoding: chunked
+05-10-2023 22:07:54 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 265 - << api-supported-versions: 1.0
+05-10-2023 22:07:54 DefaultRequestDirector.java DEBUG [TestNG-test=Smoke-1] client.DefaultHttpClient 504 - Connection can be kept alive indefinitely
+05-10-2023 22:07:54 HTTPBuilder.java DEBUG [TestNG-test=Smoke-1] internal.RestAssuredHttpBuilder 553 - Parsing response as: application/json; charset=utf-8; v=1.0
+05-10-2023 22:07:54 HTTPBuilder.java DEBUG [TestNG-test=Smoke-1] internal.RestAssuredHttpBuilder 556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+05-10-2023 22:07:54 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 158 - 
+05-10-2023 22:07:54 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 159 - http://localhost
+05-10-2023 22:07:54 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 160 - 
+05-10-2023 22:07:54 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 161 - {
+  "id" : 4,
+  "title" : "HMSPK",
+  "dueDate" : "2023-03-20T11:39:04.146Z",
+  "completed" : true
+}
+05-10-2023 22:07:54 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "4e[\r][\n]"
+05-10-2023 22:07:54 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 87 -  << "{"id":4,"title":"HMSPK","dueDate":"2023-03-20T11:39:04.146Z","completed":true}"
+05-10-2023 22:07:54 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "[\r][\n]"
+05-10-2023 22:07:54 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "0[\r][\n]"
+05-10-2023 22:07:54 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "[\r][\n]"
+05-10-2023 22:07:54 BasicClientConnectionManager.java DEBUG [TestNG-test=Smoke-1] conn.BasicClientConnectionManager 200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@202df91b
+05-10-2023 22:07:54 BasicClientConnectionManager.java DEBUG [TestNG-test=Smoke-1] conn.BasicClientConnectionManager 225 - Connection can be kept alive indefinitely
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8; v=1.0
+Date: Wed, 10 May 2023 16:37:54 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+api-supported-versions: 1.0
+
+{
+    "id": 4,
+    "title": "HMSPK",
+    "dueDate": "2023-03-20T11:39:04.146Z",
+    "completed": true
+}
+05-10-2023 22:07:54 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 165 -  API Response Status Code : 200
+05-10-2023 22:07:54 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 166 -  API Response Status Line : HTTP/1.1 200 OK
+05-10-2023 22:07:54 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 167 -  API Response Cookie : {}
+05-10-2023 22:07:54 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 168 -  API Response Time : 920
+05-10-2023 22:07:54 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 169 -  API Headers : Content-Type=application/json; charset=utf-8; v=1.0
+Date=Wed, 10 May 2023 16:37:54 GMT
+Server=Kestrel
+Transfer-Encoding=chunked
+api-supported-versions=1.0
+{
+    "id": 4,
+    "title": "HMSPK",
+    "dueDate": "2023-03-20T11:39:04.146Z",
+    "completed": true
+}
+{
+    "id": 4,
+    "title": "HMSPK",
+    "dueDate": "2023-03-20T11:39:04.146Z",
+    "completed": true
+}
+05-10-2023 22:07:54 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 171 -  API Response Body : {
+    "id": 4,
+    "title": "HMSPK",
+    "dueDate": "2023-03-20T11:39:04.146Z",
+    "completed": true
+}
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify Activity details GET API&quot;, &quot;Activities&quot;](3)" classname="com.demo.api.cucumber.stepsDefinition.CommonRunner" time="1.815">
+    <system-out><![CDATA[05-10-2023 22:07:54 DemoStepsDefinition.java INFO  [TestNG-test=Smoke-1] Demo 38 -  Service Name : Activity details GET API
+05-10-2023 22:07:54 DemoStepsDefinition.java INFO  [TestNG-test=Smoke-1] Demo 39 -  Thread name : 13
+05-10-2023 22:07:54 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 90 -  Request Body is : null
+05-10-2023 22:07:54 BasicClientConnectionManager.java DEBUG [TestNG-test=Smoke-1] conn.BasicClientConnectionManager 161 - Get connection for route {s}->https://fakerestapi.azurewebsites.net:443
+05-10-2023 22:07:54 DefaultClientConnectionOperator.java DEBUG [TestNG-test=Smoke-1] conn.DefaultClientConnectionOperator 177 - Connecting to fakerestapi.azurewebsites.net:443
+05-10-2023 22:07:55 RequestAddCookies.java DEBUG [TestNG-test=Smoke-1] protocol.RequestAddCookies 123 - CookieSpec selected: ignoreCookies
+05-10-2023 22:07:55 RequestAuthCache.java DEBUG [TestNG-test=Smoke-1] protocol.RequestAuthCache 77 - Auth cache not set in the context
+05-10-2023 22:07:55 RequestTargetAuthentication.java DEBUG [TestNG-test=Smoke-1] protocol.RequestTargetAuthentication 80 - Target auth state: UNCHALLENGED
+05-10-2023 22:07:55 RequestProxyAuthentication.java DEBUG [TestNG-test=Smoke-1] protocol.RequestProxyAuthentication 89 - Proxy auth state: UNCHALLENGED
+05-10-2023 22:07:55 DefaultRequestDirector.java DEBUG [TestNG-test=Smoke-1] client.DefaultHttpClient 677 - Attempt 1 to execute request
+05-10-2023 22:07:55 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] conn.DefaultClientConnection 274 - Sending request: POST /api/v1/activities/4 HTTP/1.1
+05-10-2023 22:07:55 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "POST /api/v1/activities/4 HTTP/1.1[\r][\n]"
+05-10-2023 22:07:55 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+05-10-2023 22:07:55 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "Accept: */*[\r][\n]"
+05-10-2023 22:07:55 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "Content-Length: 0[\r][\n]"
+05-10-2023 22:07:55 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "Host: fakerestapi.azurewebsites.net[\r][\n]"
+05-10-2023 22:07:55 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "Connection: Keep-Alive[\r][\n]"
+05-10-2023 22:07:55 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_333)[\r][\n]"
+05-10-2023 22:07:55 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+05-10-2023 22:07:55 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "[\r][\n]"
+05-10-2023 22:07:55 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 278 - >> POST /api/v1/activities/4 HTTP/1.1
+05-10-2023 22:07:55 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 281 - >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+05-10-2023 22:07:55 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 281 - >> Accept: */*
+05-10-2023 22:07:55 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 281 - >> Content-Length: 0
+05-10-2023 22:07:55 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 281 - >> Host: fakerestapi.azurewebsites.net
+05-10-2023 22:07:55 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 281 - >> Connection: Keep-Alive
+05-10-2023 22:07:55 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_333)
+05-10-2023 22:07:55 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 281 - >> Accept-Encoding: gzip,deflate
+05-10-2023 22:07:55 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "HTTP/1.1 405 Method Not Allowed[\r][\n]"
+05-10-2023 22:07:55 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "Content-Length: 0[\r][\n]"
+05-10-2023 22:07:55 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "Date: Wed, 10 May 2023 16:37:55 GMT[\r][\n]"
+05-10-2023 22:07:55 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "Server: Kestrel[\r][\n]"
+05-10-2023 22:07:55 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "Allow: DELETE, GET, PUT[\r][\n]"
+05-10-2023 22:07:55 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "[\r][\n]"
+05-10-2023 22:07:55 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] conn.DefaultClientConnection 259 - Receiving response: HTTP/1.1 405 Method Not Allowed
+05-10-2023 22:07:55 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 262 - << HTTP/1.1 405 Method Not Allowed
+05-10-2023 22:07:55 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 265 - << Content-Length: 0
+05-10-2023 22:07:55 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 265 - << Date: Wed, 10 May 2023 16:37:55 GMT
+05-10-2023 22:07:55 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 265 - << Server: Kestrel
+05-10-2023 22:07:55 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 265 - << Allow: DELETE, GET, PUT
+05-10-2023 22:07:55 DefaultRequestDirector.java DEBUG [TestNG-test=Smoke-1] client.DefaultHttpClient 504 - Connection can be kept alive indefinitely
+05-10-2023 22:07:55 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 158 - 
+05-10-2023 22:07:55 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 159 - http://localhost
+05-10-2023 22:07:55 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 160 - 
+05-10-2023 22:07:55 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 161 - 
+HTTP/1.1 405 Method Not Allowed
+Content-Length: 0
+Date: Wed, 10 May 2023 16:37:55 GMT
+Server: Kestrel
+Allow: DELETE, GET, PUT
+05-10-2023 22:07:55 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 165 -  API Response Status Code : 405
+05-10-2023 22:07:55 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 166 -  API Response Status Line : HTTP/1.1 405 Method Not Allowed
+05-10-2023 22:07:55 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 167 -  API Response Cookie : {}
+05-10-2023 22:07:55 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 168 -  API Response Time : 861
+05-10-2023 22:07:55 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 169 -  API Headers : Content-Length=0
+Date=Wed, 10 May 2023 16:37:55 GMT
+Server=Kestrel
+Allow=DELETE, GET, PUT
+
+
+05-10-2023 22:07:55 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 171 -  API Response Body : 
+05-10-2023 22:07:55 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 90 -  Request Body is : null
+05-10-2023 22:07:55 BasicClientConnectionManager.java DEBUG [TestNG-test=Smoke-1] conn.BasicClientConnectionManager 161 - Get connection for route {s}->https://fakerestapi.azurewebsites.net:443
+05-10-2023 22:07:55 DefaultClientConnectionOperator.java DEBUG [TestNG-test=Smoke-1] conn.DefaultClientConnectionOperator 177 - Connecting to fakerestapi.azurewebsites.net:443
+05-10-2023 22:07:56 RequestAddCookies.java DEBUG [TestNG-test=Smoke-1] protocol.RequestAddCookies 123 - CookieSpec selected: ignoreCookies
+05-10-2023 22:07:56 RequestAuthCache.java DEBUG [TestNG-test=Smoke-1] protocol.RequestAuthCache 77 - Auth cache not set in the context
+05-10-2023 22:07:56 RequestTargetAuthentication.java DEBUG [TestNG-test=Smoke-1] protocol.RequestTargetAuthentication 80 - Target auth state: UNCHALLENGED
+05-10-2023 22:07:56 RequestProxyAuthentication.java DEBUG [TestNG-test=Smoke-1] protocol.RequestProxyAuthentication 89 - Proxy auth state: UNCHALLENGED
+05-10-2023 22:07:56 DefaultRequestDirector.java DEBUG [TestNG-test=Smoke-1] client.DefaultHttpClient 677 - Attempt 1 to execute request
+05-10-2023 22:07:56 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] conn.DefaultClientConnection 274 - Sending request: GET /api/v1/activities/4 HTTP/1.1
+05-10-2023 22:07:56 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "GET /api/v1/activities/4 HTTP/1.1[\r][\n]"
+05-10-2023 22:07:56 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "Accept: */*[\r][\n]"
+05-10-2023 22:07:56 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "Host: fakerestapi.azurewebsites.net[\r][\n]"
+05-10-2023 22:07:56 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "Connection: Keep-Alive[\r][\n]"
+05-10-2023 22:07:56 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_333)[\r][\n]"
+05-10-2023 22:07:56 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+05-10-2023 22:07:56 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "[\r][\n]"
+05-10-2023 22:07:56 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 278 - >> GET /api/v1/activities/4 HTTP/1.1
+05-10-2023 22:07:56 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 281 - >> Accept: */*
+05-10-2023 22:07:56 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 281 - >> Host: fakerestapi.azurewebsites.net
+05-10-2023 22:07:56 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 281 - >> Connection: Keep-Alive
+05-10-2023 22:07:56 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_333)
+05-10-2023 22:07:56 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 281 - >> Accept-Encoding: gzip,deflate
+05-10-2023 22:07:56 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "HTTP/1.1 200 OK[\r][\n]"
+05-10-2023 22:07:56 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "Content-Type: application/json; charset=utf-8; v=1.0[\r][\n]"
+05-10-2023 22:07:56 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "Date: Wed, 10 May 2023 16:37:56 GMT[\r][\n]"
+05-10-2023 22:07:56 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "Server: Kestrel[\r][\n]"
+05-10-2023 22:07:56 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "Transfer-Encoding: chunked[\r][\n]"
+05-10-2023 22:07:56 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "api-supported-versions: 1.0[\r][\n]"
+05-10-2023 22:07:56 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "[\r][\n]"
+05-10-2023 22:07:56 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] conn.DefaultClientConnection 259 - Receiving response: HTTP/1.1 200 OK
+05-10-2023 22:07:56 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 262 - << HTTP/1.1 200 OK
+05-10-2023 22:07:56 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 265 - << Content-Type: application/json; charset=utf-8; v=1.0
+05-10-2023 22:07:56 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 265 - << Date: Wed, 10 May 2023 16:37:56 GMT
+05-10-2023 22:07:56 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 265 - << Server: Kestrel
+05-10-2023 22:07:56 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 265 - << Transfer-Encoding: chunked
+05-10-2023 22:07:56 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 265 - << api-supported-versions: 1.0
+05-10-2023 22:07:56 DefaultRequestDirector.java DEBUG [TestNG-test=Smoke-1] client.DefaultHttpClient 504 - Connection can be kept alive indefinitely
+05-10-2023 22:07:56 HTTPBuilder.java DEBUG [TestNG-test=Smoke-1] internal.RestAssuredHttpBuilder 553 - Parsing response as: application/json; charset=utf-8; v=1.0
+05-10-2023 22:07:56 HTTPBuilder.java DEBUG [TestNG-test=Smoke-1] internal.RestAssuredHttpBuilder 556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+05-10-2023 22:07:56 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 158 - 
+05-10-2023 22:07:56 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 159 - http://localhost
+05-10-2023 22:07:56 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 160 - 
+05-10-2023 22:07:56 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 161 - 
+05-10-2023 22:07:56 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "5c[\r][\n]"
+05-10-2023 22:07:56 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 87 -  << "{"id":4,"title":"Activity 4","dueDate":"2023-05-10T20:37:56.2792522+00:00","completed":true}"
+05-10-2023 22:07:56 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "[\r][\n]"
+05-10-2023 22:07:56 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "0[\r][\n]"
+05-10-2023 22:07:56 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "[\r][\n]"
+05-10-2023 22:07:56 BasicClientConnectionManager.java DEBUG [TestNG-test=Smoke-1] conn.BasicClientConnectionManager 200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@773c784c
+05-10-2023 22:07:56 BasicClientConnectionManager.java DEBUG [TestNG-test=Smoke-1] conn.BasicClientConnectionManager 225 - Connection can be kept alive indefinitely
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8; v=1.0
+Date: Wed, 10 May 2023 16:37:56 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+api-supported-versions: 1.0
+
+{
+    "id": 4,
+    "title": "Activity 4",
+    "dueDate": "2023-05-10T20:37:56.2792522+00:00",
+    "completed": true
+}
+05-10-2023 22:07:56 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 165 -  API Response Status Code : 200
+05-10-2023 22:07:56 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 166 -  API Response Status Line : HTTP/1.1 200 OK
+05-10-2023 22:07:56 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 167 -  API Response Cookie : {}
+05-10-2023 22:07:56 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 168 -  API Response Time : 853
+05-10-2023 22:07:56 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 169 -  API Headers : Content-Type=application/json; charset=utf-8; v=1.0
+Date=Wed, 10 May 2023 16:37:56 GMT
+Server=Kestrel
+Transfer-Encoding=chunked
+api-supported-versions=1.0
+{
+    "id": 4,
+    "title": "Activity 4",
+    "dueDate": "2023-05-10T20:37:56.2792522+00:00",
+    "completed": true
+}
+{
+    "id": 4,
+    "title": "Activity 4",
+    "dueDate": "2023-05-10T20:37:56.2792522+00:00",
+    "completed": true
+}
+05-10-2023 22:07:56 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 171 -  API Response Body : {
+    "id": 4,
+    "title": "Activity 4",
+    "dueDate": "2023-05-10T20:37:56.2792522+00:00",
+    "completed": true
+}
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify Activities PUT API&quot;, &quot;Activities&quot;](4)" classname="com.demo.api.cucumber.stepsDefinition.CommonRunner" time="1.002">
+    <system-out><![CDATA[05-10-2023 22:07:56 DefaultClientConnection.java DEBUG [Finalizer] conn.DefaultClientConnection 180 - Connection 0.0.0.0:53495<->20.50.2.11:443 closed
+05-10-2023 22:07:56 DemoStepsDefinition.java INFO  [TestNG-test=Smoke-1] Demo 38 -  Service Name : Activities PUT API
+05-10-2023 22:07:56 DemoStepsDefinition.java INFO  [TestNG-test=Smoke-1] Demo 39 -  Thread name : 13
+05-10-2023 22:07:56 DefaultClientConnection.java DEBUG [Finalizer] conn.DefaultClientConnection 180 - Connection 0.0.0.0:53493<->20.50.2.11:443 closed
+05-10-2023 22:07:56 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 90 -  Request Body is : {
+  "id" : 4,
+  "title" : "Activityy",
+  "dueDate" : "2023-03-21T17:58:49.5418856+00:00",
+  "completed" : true
+}
+05-10-2023 22:07:56 BasicClientConnectionManager.java DEBUG [TestNG-test=Smoke-1] conn.BasicClientConnectionManager 161 - Get connection for route {s}->https://fakerestapi.azurewebsites.net:443
+05-10-2023 22:07:56 DefaultClientConnectionOperator.java DEBUG [TestNG-test=Smoke-1] conn.DefaultClientConnectionOperator 177 - Connecting to fakerestapi.azurewebsites.net:443
+05-10-2023 22:07:57 RequestAddCookies.java DEBUG [TestNG-test=Smoke-1] protocol.RequestAddCookies 123 - CookieSpec selected: ignoreCookies
+05-10-2023 22:07:57 RequestAuthCache.java DEBUG [TestNG-test=Smoke-1] protocol.RequestAuthCache 77 - Auth cache not set in the context
+05-10-2023 22:07:57 RequestTargetAuthentication.java DEBUG [TestNG-test=Smoke-1] protocol.RequestTargetAuthentication 80 - Target auth state: UNCHALLENGED
+05-10-2023 22:07:57 RequestProxyAuthentication.java DEBUG [TestNG-test=Smoke-1] protocol.RequestProxyAuthentication 89 - Proxy auth state: UNCHALLENGED
+05-10-2023 22:07:57 DefaultRequestDirector.java DEBUG [TestNG-test=Smoke-1] client.DefaultHttpClient 677 - Attempt 1 to execute request
+05-10-2023 22:07:57 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] conn.DefaultClientConnection 274 - Sending request: PUT /api/v1/activities/4 HTTP/1.1
+05-10-2023 22:07:57 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "PUT /api/v1/activities/4 HTTP/1.1[\r][\n]"
+05-10-2023 22:07:57 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "Accept: */*[\r][\n]"
+05-10-2023 22:07:57 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "Content-Type: application/json[\r][\n]"
+05-10-2023 22:07:57 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "Content-Length: 117[\r][\n]"
+05-10-2023 22:07:57 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "Host: fakerestapi.azurewebsites.net[\r][\n]"
+05-10-2023 22:07:57 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "Connection: Keep-Alive[\r][\n]"
+05-10-2023 22:07:57 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_333)[\r][\n]"
+05-10-2023 22:07:57 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+05-10-2023 22:07:57 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "[\r][\n]"
+05-10-2023 22:07:57 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 278 - >> PUT /api/v1/activities/4 HTTP/1.1
+05-10-2023 22:07:57 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 281 - >> Accept: */*
+05-10-2023 22:07:57 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 281 - >> Content-Type: application/json
+05-10-2023 22:07:57 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 281 - >> Content-Length: 117
+05-10-2023 22:07:57 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 281 - >> Host: fakerestapi.azurewebsites.net
+05-10-2023 22:07:57 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 281 - >> Connection: Keep-Alive
+05-10-2023 22:07:57 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_333)
+05-10-2023 22:07:57 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 281 - >> Accept-Encoding: gzip,deflate
+05-10-2023 22:07:57 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "{[\r][\n]"
+05-10-2023 22:07:57 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "  "id" : 4,[\r][\n]"
+05-10-2023 22:07:57 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "  "title" : "Activityy",[\r][\n]"
+05-10-2023 22:07:57 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "  "dueDate" : "2023-03-21T17:58:49.5418856+00:00",[\r][\n]"
+05-10-2023 22:07:57 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "  "completed" : true[\r][\n]"
+05-10-2023 22:07:57 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 87 -  >> "}"
+05-10-2023 22:07:57 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "HTTP/1.1 200 OK[\r][\n]"
+05-10-2023 22:07:57 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "Content-Type: application/json; charset=utf-8; v=1.0[\r][\n]"
+05-10-2023 22:07:57 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "Date: Wed, 10 May 2023 16:37:57 GMT[\r][\n]"
+05-10-2023 22:07:57 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "Server: Kestrel[\r][\n]"
+05-10-2023 22:07:57 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "Transfer-Encoding: chunked[\r][\n]"
+05-10-2023 22:07:57 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "api-supported-versions: 1.0[\r][\n]"
+05-10-2023 22:07:57 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "[\r][\n]"
+05-10-2023 22:07:57 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] conn.DefaultClientConnection 259 - Receiving response: HTTP/1.1 200 OK
+05-10-2023 22:07:57 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 262 - << HTTP/1.1 200 OK
+05-10-2023 22:07:57 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 265 - << Content-Type: application/json; charset=utf-8; v=1.0
+05-10-2023 22:07:57 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 265 - << Date: Wed, 10 May 2023 16:37:57 GMT
+05-10-2023 22:07:57 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 265 - << Server: Kestrel
+05-10-2023 22:07:57 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 265 - << Transfer-Encoding: chunked
+05-10-2023 22:07:57 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 265 - << api-supported-versions: 1.0
+05-10-2023 22:07:57 DefaultRequestDirector.java DEBUG [TestNG-test=Smoke-1] client.DefaultHttpClient 504 - Connection can be kept alive indefinitely
+05-10-2023 22:07:57 HTTPBuilder.java DEBUG [TestNG-test=Smoke-1] internal.RestAssuredHttpBuilder 553 - Parsing response as: application/json; charset=utf-8; v=1.0
+05-10-2023 22:07:57 HTTPBuilder.java DEBUG [TestNG-test=Smoke-1] internal.RestAssuredHttpBuilder 556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+05-10-2023 22:07:57 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 158 - 
+05-10-2023 22:07:57 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 159 - http://localhost
+05-10-2023 22:07:57 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 160 - 
+05-10-2023 22:07:57 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 161 - {
+  "id" : 4,
+  "title" : "Activityy",
+  "dueDate" : "2023-03-21T17:58:49.5418856+00:00",
+  "completed" : true
+}
+05-10-2023 22:07:57 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "5b[\r][\n]"
+05-10-2023 22:07:57 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 87 -  << "{"id":4,"title":"Activityy","dueDate":"2023-03-21T17:58:49.5418856+00:00","completed":true}"
+05-10-2023 22:07:57 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "[\r][\n]"
+05-10-2023 22:07:57 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "0[\r][\n]"
+05-10-2023 22:07:57 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "[\r][\n]"
+05-10-2023 22:07:57 BasicClientConnectionManager.java DEBUG [TestNG-test=Smoke-1] conn.BasicClientConnectionManager 200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@41ec980
+05-10-2023 22:07:57 BasicClientConnectionManager.java DEBUG [TestNG-test=Smoke-1] conn.BasicClientConnectionManager 225 - Connection can be kept alive indefinitely
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8; v=1.0
+Date: Wed, 10 May 2023 16:37:57 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+api-supported-versions: 1.0
+
+{
+    "id": 4,
+    "title": "Activityy",
+    "dueDate": "2023-03-21T17:58:49.5418856+00:00",
+    "completed": true
+}
+05-10-2023 22:07:57 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 165 -  API Response Status Code : 200
+05-10-2023 22:07:57 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 166 -  API Response Status Line : HTTP/1.1 200 OK
+05-10-2023 22:07:57 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 167 -  API Response Cookie : {}
+05-10-2023 22:07:57 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 168 -  API Response Time : 868
+05-10-2023 22:07:57 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 169 -  API Headers : Content-Type=application/json; charset=utf-8; v=1.0
+Date=Wed, 10 May 2023 16:37:57 GMT
+Server=Kestrel
+Transfer-Encoding=chunked
+api-supported-versions=1.0
+{
+    "id": 4,
+    "title": "Activityy",
+    "dueDate": "2023-03-21T17:58:49.5418856+00:00",
+    "completed": true
+}
+{
+    "id": 4,
+    "title": "Activityy",
+    "dueDate": "2023-03-21T17:58:49.5418856+00:00",
+    "completed": true
+}
+05-10-2023 22:07:57 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 171 -  API Response Body : {
+    "id": 4,
+    "title": "Activityy",
+    "dueDate": "2023-03-21T17:58:49.5418856+00:00",
+    "completed": true
+}
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify Activities DELETE API&quot;, &quot;Activities&quot;](5)" classname="com.demo.api.cucumber.stepsDefinition.CommonRunner" time="1.797">
+    <system-out><![CDATA[05-10-2023 22:07:57 DemoStepsDefinition.java INFO  [TestNG-test=Smoke-1] Demo 38 -  Service Name : Activities DELETE API
+05-10-2023 22:07:57 DemoStepsDefinition.java INFO  [TestNG-test=Smoke-1] Demo 39 -  Thread name : 13
+05-10-2023 22:07:57 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 90 -  Request Body is : null
+05-10-2023 22:07:57 BasicClientConnectionManager.java DEBUG [TestNG-test=Smoke-1] conn.BasicClientConnectionManager 161 - Get connection for route {s}->https://fakerestapi.azurewebsites.net:443
+05-10-2023 22:07:57 DefaultClientConnectionOperator.java DEBUG [TestNG-test=Smoke-1] conn.DefaultClientConnectionOperator 177 - Connecting to fakerestapi.azurewebsites.net:443
+05-10-2023 22:07:58 RequestAddCookies.java DEBUG [TestNG-test=Smoke-1] protocol.RequestAddCookies 123 - CookieSpec selected: ignoreCookies
+05-10-2023 22:07:58 RequestAuthCache.java DEBUG [TestNG-test=Smoke-1] protocol.RequestAuthCache 77 - Auth cache not set in the context
+05-10-2023 22:07:58 RequestTargetAuthentication.java DEBUG [TestNG-test=Smoke-1] protocol.RequestTargetAuthentication 80 - Target auth state: UNCHALLENGED
+05-10-2023 22:07:58 RequestProxyAuthentication.java DEBUG [TestNG-test=Smoke-1] protocol.RequestProxyAuthentication 89 - Proxy auth state: UNCHALLENGED
+05-10-2023 22:07:58 DefaultRequestDirector.java DEBUG [TestNG-test=Smoke-1] client.DefaultHttpClient 677 - Attempt 1 to execute request
+05-10-2023 22:07:58 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] conn.DefaultClientConnection 274 - Sending request: POST /api/v1/activities/4 HTTP/1.1
+05-10-2023 22:07:58 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "POST /api/v1/activities/4 HTTP/1.1[\r][\n]"
+05-10-2023 22:07:58 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+05-10-2023 22:07:58 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "Accept: */*[\r][\n]"
+05-10-2023 22:07:58 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "Content-Length: 0[\r][\n]"
+05-10-2023 22:07:58 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "Host: fakerestapi.azurewebsites.net[\r][\n]"
+05-10-2023 22:07:58 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "Connection: Keep-Alive[\r][\n]"
+05-10-2023 22:07:58 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_333)[\r][\n]"
+05-10-2023 22:07:58 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+05-10-2023 22:07:58 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "[\r][\n]"
+05-10-2023 22:07:58 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 278 - >> POST /api/v1/activities/4 HTTP/1.1
+05-10-2023 22:07:58 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 281 - >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+05-10-2023 22:07:58 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 281 - >> Accept: */*
+05-10-2023 22:07:58 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 281 - >> Content-Length: 0
+05-10-2023 22:07:58 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 281 - >> Host: fakerestapi.azurewebsites.net
+05-10-2023 22:07:58 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 281 - >> Connection: Keep-Alive
+05-10-2023 22:07:58 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_333)
+05-10-2023 22:07:58 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 281 - >> Accept-Encoding: gzip,deflate
+05-10-2023 22:07:58 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "HTTP/1.1 405 Method Not Allowed[\r][\n]"
+05-10-2023 22:07:58 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "Content-Length: 0[\r][\n]"
+05-10-2023 22:07:58 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "Date: Wed, 10 May 2023 16:37:58 GMT[\r][\n]"
+05-10-2023 22:07:58 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "Server: Kestrel[\r][\n]"
+05-10-2023 22:07:58 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "Allow: DELETE, GET, PUT[\r][\n]"
+05-10-2023 22:07:58 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "[\r][\n]"
+05-10-2023 22:07:58 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] conn.DefaultClientConnection 259 - Receiving response: HTTP/1.1 405 Method Not Allowed
+05-10-2023 22:07:58 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 262 - << HTTP/1.1 405 Method Not Allowed
+05-10-2023 22:07:58 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 265 - << Content-Length: 0
+05-10-2023 22:07:58 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 265 - << Date: Wed, 10 May 2023 16:37:58 GMT
+05-10-2023 22:07:58 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 265 - << Server: Kestrel
+05-10-2023 22:07:58 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 265 - << Allow: DELETE, GET, PUT
+05-10-2023 22:07:58 DefaultRequestDirector.java DEBUG [TestNG-test=Smoke-1] client.DefaultHttpClient 504 - Connection can be kept alive indefinitely
+05-10-2023 22:07:58 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 158 - 
+05-10-2023 22:07:58 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 159 - http://localhost
+05-10-2023 22:07:58 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 160 - 
+05-10-2023 22:07:58 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 161 - 
+HTTP/1.1 405 Method Not Allowed
+Content-Length: 0
+Date: Wed, 10 May 2023 16:37:58 GMT
+Server: Kestrel
+Allow: DELETE, GET, PUT
+05-10-2023 22:07:58 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 165 -  API Response Status Code : 405
+05-10-2023 22:07:58 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 166 -  API Response Status Line : HTTP/1.1 405 Method Not Allowed
+05-10-2023 22:07:58 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 167 -  API Response Cookie : {}
+05-10-2023 22:07:58 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 168 -  API Response Time : 880
+05-10-2023 22:07:58 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 169 -  API Headers : Content-Length=0
+Date=Wed, 10 May 2023 16:37:58 GMT
+Server=Kestrel
+Allow=DELETE, GET, PUT
+
+
+05-10-2023 22:07:58 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 171 -  API Response Body : 
+05-10-2023 22:07:58 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 90 -  Request Body is : null
+05-10-2023 22:07:58 BasicClientConnectionManager.java DEBUG [TestNG-test=Smoke-1] conn.BasicClientConnectionManager 161 - Get connection for route {s}->https://fakerestapi.azurewebsites.net:443
+05-10-2023 22:07:58 DefaultClientConnectionOperator.java DEBUG [TestNG-test=Smoke-1] conn.DefaultClientConnectionOperator 177 - Connecting to fakerestapi.azurewebsites.net:443
+05-10-2023 22:07:59 RequestAddCookies.java DEBUG [TestNG-test=Smoke-1] protocol.RequestAddCookies 123 - CookieSpec selected: ignoreCookies
+05-10-2023 22:07:59 RequestAuthCache.java DEBUG [TestNG-test=Smoke-1] protocol.RequestAuthCache 77 - Auth cache not set in the context
+05-10-2023 22:07:59 RequestTargetAuthentication.java DEBUG [TestNG-test=Smoke-1] protocol.RequestTargetAuthentication 80 - Target auth state: UNCHALLENGED
+05-10-2023 22:07:59 RequestProxyAuthentication.java DEBUG [TestNG-test=Smoke-1] protocol.RequestProxyAuthentication 89 - Proxy auth state: UNCHALLENGED
+05-10-2023 22:07:59 DefaultRequestDirector.java DEBUG [TestNG-test=Smoke-1] client.DefaultHttpClient 677 - Attempt 1 to execute request
+05-10-2023 22:07:59 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] conn.DefaultClientConnection 274 - Sending request: DELETE /api/v1/activities/4 HTTP/1.1
+05-10-2023 22:07:59 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "DELETE /api/v1/activities/4 HTTP/1.1[\r][\n]"
+05-10-2023 22:07:59 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "Accept: */*[\r][\n]"
+05-10-2023 22:07:59 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "Host: fakerestapi.azurewebsites.net[\r][\n]"
+05-10-2023 22:07:59 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "Connection: Keep-Alive[\r][\n]"
+05-10-2023 22:07:59 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_333)[\r][\n]"
+05-10-2023 22:07:59 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+05-10-2023 22:07:59 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  >> "[\r][\n]"
+05-10-2023 22:07:59 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 278 - >> DELETE /api/v1/activities/4 HTTP/1.1
+05-10-2023 22:07:59 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 281 - >> Accept: */*
+05-10-2023 22:07:59 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 281 - >> Host: fakerestapi.azurewebsites.net
+05-10-2023 22:07:59 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 281 - >> Connection: Keep-Alive
+05-10-2023 22:07:59 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_333)
+05-10-2023 22:07:59 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 281 - >> Accept-Encoding: gzip,deflate
+05-10-2023 22:07:59 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "HTTP/1.1 200 OK[\r][\n]"
+05-10-2023 22:07:59 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "Content-Length: 0[\r][\n]"
+05-10-2023 22:07:59 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "Date: Wed, 10 May 2023 16:37:58 GMT[\r][\n]"
+05-10-2023 22:07:59 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "Server: Kestrel[\r][\n]"
+05-10-2023 22:07:59 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "api-supported-versions: 1.0[\r][\n]"
+05-10-2023 22:07:59 Wire.java DEBUG [TestNG-test=Smoke-1] http.wire 73 -  << "[\r][\n]"
+05-10-2023 22:07:59 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] conn.DefaultClientConnection 259 - Receiving response: HTTP/1.1 200 OK
+05-10-2023 22:07:59 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 262 - << HTTP/1.1 200 OK
+05-10-2023 22:07:59 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 265 - << Content-Length: 0
+05-10-2023 22:07:59 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 265 - << Date: Wed, 10 May 2023 16:37:58 GMT
+05-10-2023 22:07:59 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 265 - << Server: Kestrel
+05-10-2023 22:07:59 DefaultClientConnection.java DEBUG [TestNG-test=Smoke-1] http.headers 265 - << api-supported-versions: 1.0
+05-10-2023 22:07:59 DefaultRequestDirector.java DEBUG [TestNG-test=Smoke-1] client.DefaultHttpClient 504 - Connection can be kept alive indefinitely
+05-10-2023 22:07:59 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 158 - 
+05-10-2023 22:07:59 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 159 - http://localhost
+05-10-2023 22:07:59 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 160 - 
+05-10-2023 22:07:59 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 161 - 
+HTTP/1.1 200 OK
+Content-Length: 0
+Date: Wed, 10 May 2023 16:37:58 GMT
+Server: Kestrel
+api-supported-versions: 1.0
+05-10-2023 22:07:59 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 165 -  API Response Status Code : 200
+05-10-2023 22:07:59 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 166 -  API Response Status Line : HTTP/1.1 200 OK
+05-10-2023 22:07:59 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 167 -  API Response Cookie : {}
+05-10-2023 22:07:59 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 168 -  API Response Time : 867
+05-10-2023 22:07:59 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 169 -  API Headers : Content-Length=0
+Date=Wed, 10 May 2023 16:37:58 GMT
+Server=Kestrel
+api-supported-versions=1.0
+
+
+05-10-2023 22:07:59 ApiRequestHelper.java INFO  [TestNG-test=Smoke-1] Demo 171 -  API Response Body : 
+]]></system-out>
+  </testcase>
+</testsuite>

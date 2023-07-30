@@ -1,0 +1,497 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$id": "http://example.com/example.json",
+  "type": "array",
+  "default": [],
+  "title": "Root Schema",
+  "items": {
+    "type": "object",
+    "title": "A Schema",
+    "required": [
+      "id",
+      "title",
+      "dueDate",
+      "completed"
+    ],
+    "properties": {
+      "id": {
+        "type": "integer",
+        "title": "The id Schema",
+        "examples": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      },
+      "title": {
+        "type": "string",
+        "title": "The title Schema",
+        "examples": [
+          "Activity 1",
+          "Activity 2",
+          "Activity 3",
+          "Activity 4",
+          "Activity 5",
+          "Activity 6",
+          "Activity 7",
+          "Activity 8",
+          "Activity 9",
+          "Activity 10",
+          "Activity 11",
+          "Activity 12",
+          "Activity 13",
+          "Activity 14",
+          "Activity 15",
+          "Activity 16",
+          "Activity 17",
+          "Activity 18",
+          "Activity 19",
+          "Activity 20",
+          "Activity 21",
+          "Activity 22",
+          "Activity 23",
+          "Activity 24",
+          "Activity 25",
+          "Activity 26",
+          "Activity 27",
+          "Activity 28",
+          "Activity 29",
+          "Activity 30"
+        ]
+      },
+      "dueDate": {
+        "type": "string",
+        "title": "The dueDate Schema",
+        "examples": [
+          "2023-03-28T11:18:12.4086917+00:00",
+          "2023-03-28T12:18:12.4086939+00:00",
+          "2023-03-28T13:18:12.4086942+00:00",
+          "2023-03-28T14:18:12.4086945+00:00",
+          "2023-03-28T15:18:12.4086947+00:00",
+          "2023-03-28T16:18:12.4086982+00:00",
+          "2023-03-28T17:18:12.4086986+00:00",
+          "2023-03-28T18:18:12.4086989+00:00",
+          "2023-03-28T19:18:12.4086991+00:00",
+          "2023-03-28T20:18:12.4086996+00:00",
+          "2023-03-28T21:18:12.4086999+00:00",
+          "2023-03-28T22:18:12.4087002+00:00",
+          "2023-03-28T23:18:12.4087004+00:00",
+          "2023-03-29T00:18:12.4087007+00:00",
+          "2023-03-29T01:18:12.4087009+00:00",
+          "2023-03-29T02:18:12.4087012+00:00",
+          "2023-03-29T03:18:12.4087014+00:00",
+          "2023-03-29T04:18:12.4087018+00:00",
+          "2023-03-29T05:18:12.408702+00:00",
+          "2023-03-29T06:18:12.4087023+00:00",
+          "2023-03-29T07:18:12.4087026+00:00",
+          "2023-03-29T08:18:12.4087028+00:00",
+          "2023-03-29T09:18:12.408703+00:00",
+          "2023-03-29T10:18:12.4087034+00:00",
+          "2023-03-29T11:18:12.4087036+00:00",
+          "2023-03-29T12:18:12.4087039+00:00",
+          "2023-03-29T13:18:12.4087041+00:00",
+          "2023-03-29T14:18:12.4087044+00:00",
+          "2023-03-29T15:18:12.4087046+00:00",
+          "2023-03-29T16:18:12.4087049+00:00"
+        ]
+      },
+      "completed": {
+        "type": "boolean",
+        "title": "The completed Schema",
+        "examples": [
+          false,
+          true
+        ]
+      }
+    },
+    "examples": [{
+      "id": 1,
+      "title": "Activity 1",
+      "dueDate": "2023-03-28T11:18:12.4086917+00:00",
+      "completed": false
+    },
+      {
+        "id": 2,
+        "title": "Activity 2",
+        "dueDate": "2023-03-28T12:18:12.4086939+00:00",
+        "completed": true
+      },
+      {
+        "id": 3,
+        "title": "Activity 3",
+        "dueDate": "2023-03-28T13:18:12.4086942+00:00",
+        "completed": false
+      },
+      {
+        "id": 4,
+        "title": "Activity 4",
+        "dueDate": "2023-03-28T14:18:12.4086945+00:00",
+        "completed": true
+      },
+      {
+        "id": 5,
+        "title": "Activity 5",
+        "dueDate": "2023-03-28T15:18:12.4086947+00:00",
+        "completed": false
+      },
+      {
+        "id": 6,
+        "title": "Activity 6",
+        "dueDate": "2023-03-28T16:18:12.4086982+00:00",
+        "completed": true
+      },
+      {
+        "id": 7,
+        "title": "Activity 7",
+        "dueDate": "2023-03-28T17:18:12.4086986+00:00",
+        "completed": false
+      },
+      {
+        "id": 8,
+        "title": "Activity 8",
+        "dueDate": "2023-03-28T18:18:12.4086989+00:00",
+        "completed": true
+      },
+      {
+        "id": 9,
+        "title": "Activity 9",
+        "dueDate": "2023-03-28T19:18:12.4086991+00:00",
+        "completed": false
+      },
+      {
+        "id": 10,
+        "title": "Activity 10",
+        "dueDate": "2023-03-28T20:18:12.4086996+00:00",
+        "completed": true
+      },
+      {
+        "id": 11,
+        "title": "Activity 11",
+        "dueDate": "2023-03-28T21:18:12.4086999+00:00",
+        "completed": false
+      },
+      {
+        "id": 12,
+        "title": "Activity 12",
+        "dueDate": "2023-03-28T22:18:12.4087002+00:00",
+        "completed": true
+      },
+      {
+        "id": 13,
+        "title": "Activity 13",
+        "dueDate": "2023-03-28T23:18:12.4087004+00:00",
+        "completed": false
+      },
+      {
+        "id": 14,
+        "title": "Activity 14",
+        "dueDate": "2023-03-29T00:18:12.4087007+00:00",
+        "completed": true
+      },
+      {
+        "id": 15,
+        "title": "Activity 15",
+        "dueDate": "2023-03-29T01:18:12.4087009+00:00",
+        "completed": false
+      },
+      {
+        "id": 16,
+        "title": "Activity 16",
+        "dueDate": "2023-03-29T02:18:12.4087012+00:00",
+        "completed": true
+      },
+      {
+        "id": 17,
+        "title": "Activity 17",
+        "dueDate": "2023-03-29T03:18:12.4087014+00:00",
+        "completed": false
+      },
+      {
+        "id": 18,
+        "title": "Activity 18",
+        "dueDate": "2023-03-29T04:18:12.4087018+00:00",
+        "completed": true
+      },
+      {
+        "id": 19,
+        "title": "Activity 19",
+        "dueDate": "2023-03-29T05:18:12.408702+00:00",
+        "completed": false
+      },
+      {
+        "id": 20,
+        "title": "Activity 20",
+        "dueDate": "2023-03-29T06:18:12.4087023+00:00",
+        "completed": true
+      },
+      {
+        "id": 21,
+        "title": "Activity 21",
+        "dueDate": "2023-03-29T07:18:12.4087026+00:00",
+        "completed": false
+      },
+      {
+        "id": 22,
+        "title": "Activity 22",
+        "dueDate": "2023-03-29T08:18:12.4087028+00:00",
+        "completed": true
+      },
+      {
+        "id": 23,
+        "title": "Activity 23",
+        "dueDate": "2023-03-29T09:18:12.408703+00:00",
+        "completed": false
+      },
+      {
+        "id": 24,
+        "title": "Activity 24",
+        "dueDate": "2023-03-29T10:18:12.4087034+00:00",
+        "completed": true
+      },
+      {
+        "id": 25,
+        "title": "Activity 25",
+        "dueDate": "2023-03-29T11:18:12.4087036+00:00",
+        "completed": false
+      },
+      {
+        "id": 26,
+        "title": "Activity 26",
+        "dueDate": "2023-03-29T12:18:12.4087039+00:00",
+        "completed": true
+      },
+      {
+        "id": 27,
+        "title": "Activity 27",
+        "dueDate": "2023-03-29T13:18:12.4087041+00:00",
+        "completed": false
+      },
+      {
+        "id": 28,
+        "title": "Activity 28",
+        "dueDate": "2023-03-29T14:18:12.4087044+00:00",
+        "completed": true
+      },
+      {
+        "id": 29,
+        "title": "Activity 29",
+        "dueDate": "2023-03-29T15:18:12.4087046+00:00",
+        "completed": false
+      },
+      {
+        "id": 30,
+        "title": "Activity 30",
+        "dueDate": "2023-03-29T16:18:12.4087049+00:00",
+        "completed": true
+      }]
+  },
+  "examples": [
+    [{
+      "id": 1,
+      "title": "Activity 1",
+      "dueDate": "2023-03-28T11:18:12.4086917+00:00",
+      "completed": false
+    },
+      {
+        "id": 2,
+        "title": "Activity 2",
+        "dueDate": "2023-03-28T12:18:12.4086939+00:00",
+        "completed": true
+      },
+      {
+        "id": 3,
+        "title": "Activity 3",
+        "dueDate": "2023-03-28T13:18:12.4086942+00:00",
+        "completed": false
+      },
+      {
+        "id": 4,
+        "title": "Activity 4",
+        "dueDate": "2023-03-28T14:18:12.4086945+00:00",
+        "completed": true
+      },
+      {
+        "id": 5,
+        "title": "Activity 5",
+        "dueDate": "2023-03-28T15:18:12.4086947+00:00",
+        "completed": false
+      },
+      {
+        "id": 6,
+        "title": "Activity 6",
+        "dueDate": "2023-03-28T16:18:12.4086982+00:00",
+        "completed": true
+      },
+      {
+        "id": 7,
+        "title": "Activity 7",
+        "dueDate": "2023-03-28T17:18:12.4086986+00:00",
+        "completed": false
+      },
+      {
+        "id": 8,
+        "title": "Activity 8",
+        "dueDate": "2023-03-28T18:18:12.4086989+00:00",
+        "completed": true
+      },
+      {
+        "id": 9,
+        "title": "Activity 9",
+        "dueDate": "2023-03-28T19:18:12.4086991+00:00",
+        "completed": false
+      },
+      {
+        "id": 10,
+        "title": "Activity 10",
+        "dueDate": "2023-03-28T20:18:12.4086996+00:00",
+        "completed": true
+      },
+      {
+        "id": 11,
+        "title": "Activity 11",
+        "dueDate": "2023-03-28T21:18:12.4086999+00:00",
+        "completed": false
+      },
+      {
+        "id": 12,
+        "title": "Activity 12",
+        "dueDate": "2023-03-28T22:18:12.4087002+00:00",
+        "completed": true
+      },
+      {
+        "id": 13,
+        "title": "Activity 13",
+        "dueDate": "2023-03-28T23:18:12.4087004+00:00",
+        "completed": false
+      },
+      {
+        "id": 14,
+        "title": "Activity 14",
+        "dueDate": "2023-03-29T00:18:12.4087007+00:00",
+        "completed": true
+      },
+      {
+        "id": 15,
+        "title": "Activity 15",
+        "dueDate": "2023-03-29T01:18:12.4087009+00:00",
+        "completed": false
+      },
+      {
+        "id": 16,
+        "title": "Activity 16",
+        "dueDate": "2023-03-29T02:18:12.4087012+00:00",
+        "completed": true
+      },
+      {
+        "id": 17,
+        "title": "Activity 17",
+        "dueDate": "2023-03-29T03:18:12.4087014+00:00",
+        "completed": false
+      },
+      {
+        "id": 18,
+        "title": "Activity 18",
+        "dueDate": "2023-03-29T04:18:12.4087018+00:00",
+        "completed": true
+      },
+      {
+        "id": 19,
+        "title": "Activity 19",
+        "dueDate": "2023-03-29T05:18:12.408702+00:00",
+        "completed": false
+      },
+      {
+        "id": 20,
+        "title": "Activity 20",
+        "dueDate": "2023-03-29T06:18:12.4087023+00:00",
+        "completed": true
+      },
+      {
+        "id": 21,
+        "title": "Activity 21",
+        "dueDate": "2023-03-29T07:18:12.4087026+00:00",
+        "completed": false
+      },
+      {
+        "id": 22,
+        "title": "Activity 22",
+        "dueDate": "2023-03-29T08:18:12.4087028+00:00",
+        "completed": true
+      },
+      {
+        "id": 23,
+        "title": "Activity 23",
+        "dueDate": "2023-03-29T09:18:12.408703+00:00",
+        "completed": false
+      },
+      {
+        "id": 24,
+        "title": "Activity 24",
+        "dueDate": "2023-03-29T10:18:12.4087034+00:00",
+        "completed": true
+      },
+      {
+        "id": 25,
+        "title": "Activity 25",
+        "dueDate": "2023-03-29T11:18:12.4087036+00:00",
+        "completed": false
+      },
+      {
+        "id": 26,
+        "title": "Activity 26",
+        "dueDate": "2023-03-29T12:18:12.4087039+00:00",
+        "completed": true
+      },
+      {
+        "id": 27,
+        "title": "Activity 27",
+        "dueDate": "2023-03-29T13:18:12.4087041+00:00",
+        "completed": false
+      },
+      {
+        "id": 28,
+        "title": "Activity 28",
+        "dueDate": "2023-03-29T14:18:12.4087044+00:00",
+        "completed": true
+      },
+      {
+        "id": 29,
+        "title": "Activity 29",
+        "dueDate": "2023-03-29T15:18:12.4087046+00:00",
+        "completed": false
+      },
+      {
+        "id": 30,
+        "title": "Activity 30",
+        "dueDate": "2023-03-29T16:18:12.4087049+00:00",
+        "completed": true
+      }]
+  ]
+}

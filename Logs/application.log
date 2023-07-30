@@ -1,0 +1,646 @@
+2023-07-30 16:42:33,888  INFO [main] Demo:38 -  Service Name : Activities GET API
+2023-07-30 16:42:33,891  INFO [main] Demo:39 -  Thread name : 1
+2023-07-30 16:42:35,410 DEBUG [main] BasicClientConnectionManager:161 - Get connection for route {s}->https://fakerestapi.azurewebsites.net:443
+2023-07-30 16:42:35,520 DEBUG [main] DefaultClientConnectionOperator:177 - Connecting to fakerestapi.azurewebsites.net:443
+2023-07-30 16:42:36,681 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2023-07-30 16:42:36,684 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2023-07-30 16:42:36,685 DEBUG [main] RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2023-07-30 16:42:36,687 DEBUG [main] RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2023-07-30 16:42:36,688 DEBUG [main] DefaultHttpClient:677 - Attempt 1 to execute request
+2023-07-30 16:42:36,689 DEBUG [main] DefaultClientConnection:274 - Sending request: GET /api/v1/activities HTTP/1.1
+2023-07-30 16:42:36,690 DEBUG [main] wire:73 -  >> "GET /api/v1/activities HTTP/1.1[\r][\n]"
+2023-07-30 16:42:36,694 DEBUG [main] wire:73 -  >> "Accept: */*[\r][\n]"
+2023-07-30 16:42:36,695 DEBUG [main] wire:73 -  >> "Host: fakerestapi.azurewebsites.net[\r][\n]"
+2023-07-30 16:42:36,696 DEBUG [main] wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2023-07-30 16:42:36,697 DEBUG [main] wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_302)[\r][\n]"
+2023-07-30 16:42:36,698 DEBUG [main] wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2023-07-30 16:42:36,701 DEBUG [main] wire:73 -  >> "[\r][\n]"
+2023-07-30 16:42:36,702 DEBUG [main] headers:278 - >> GET /api/v1/activities HTTP/1.1
+2023-07-30 16:42:36,703 DEBUG [main] headers:281 - >> Accept: */*
+2023-07-30 16:42:36,705 DEBUG [main] headers:281 - >> Host: fakerestapi.azurewebsites.net
+2023-07-30 16:42:36,705 DEBUG [main] headers:281 - >> Connection: Keep-Alive
+2023-07-30 16:42:36,706 DEBUG [main] headers:281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_302)
+2023-07-30 16:42:36,707 DEBUG [main] headers:281 - >> Accept-Encoding: gzip,deflate
+2023-07-30 16:42:36,906 DEBUG [main] wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2023-07-30 16:42:36,908 DEBUG [main] wire:73 -  << "Content-Type: application/json; charset=utf-8; v=1.0[\r][\n]"
+2023-07-30 16:42:36,909 DEBUG [main] wire:73 -  << "Date: Sun, 30 Jul 2023 11:12:36 GMT[\r][\n]"
+2023-07-30 16:42:36,909 DEBUG [main] wire:73 -  << "Server: Kestrel[\r][\n]"
+2023-07-30 16:42:36,909 DEBUG [main] wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+2023-07-30 16:42:36,910 DEBUG [main] wire:73 -  << "api-supported-versions: 1.0[\r][\n]"
+2023-07-30 16:42:36,910 DEBUG [main] wire:73 -  << "[\r][\n]"
+2023-07-30 16:42:36,911 DEBUG [main] DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2023-07-30 16:42:36,912 DEBUG [main] headers:262 - << HTTP/1.1 200 OK
+2023-07-30 16:42:36,914 DEBUG [main] headers:265 - << Content-Type: application/json; charset=utf-8; v=1.0
+2023-07-30 16:42:36,914 DEBUG [main] headers:265 - << Date: Sun, 30 Jul 2023 11:12:36 GMT
+2023-07-30 16:42:36,914 DEBUG [main] headers:265 - << Server: Kestrel
+2023-07-30 16:42:36,915 DEBUG [main] headers:265 - << Transfer-Encoding: chunked
+2023-07-30 16:42:36,915 DEBUG [main] headers:265 - << api-supported-versions: 1.0
+2023-07-30 16:42:36,922 DEBUG [main] DefaultHttpClient:504 - Connection can be kept alive indefinitely
+2023-07-30 16:42:36,932 DEBUG [main] RestAssuredHttpBuilder:553 - Parsing response as: application/json; charset=utf-8; v=1.0
+2023-07-30 16:42:36,933 DEBUG [main] RestAssuredHttpBuilder:556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-07-30 16:42:36,960  INFO [main] Demo:158 - 
+2023-07-30 16:42:36,961  INFO [main] Demo:159 - http://localhost
+2023-07-30 16:42:36,961  INFO [main] Demo:160 - 
+2023-07-30 16:42:36,962  INFO [main] Demo:161 - 
+2023-07-30 16:42:37,012 DEBUG [main] wire:73 -  << "b1e[\r][\n]"
+2023-07-30 16:42:37,013 DEBUG [main] wire:87 -  << "[{"id":1,"title":"Activity 1","dueDate":"2023-07-30T12:12:37.0780186+00:00","completed":false},{"id":2,"title":"Activity 2","dueDate":"2023-07-30T13:12:37.0780207+00:00","completed":true},{"id":3,"title":"Activity 3","dueDate":"2023-07-30T14:12:37.0780211+00:00","completed":false},{"id":4,"title":"Activity 4","dueDate":"2023-07-30T15:12:37.0780214+00:00","completed":true},{"id":5,"title":"Activity 5","dueDate":"2023-07-30T16:12:37.0780217+00:00","completed":false},{"id":6,"title":"Activity 6","dueDate":"2023-07-30T17:12:37.0780221+00:00","completed":true},{"id":7,"title":"Activity 7","dueDate":"2023-07-30T18:12:37.0780224+00:00","completed":false},{"id":8,"title":"Activity 8","dueDate":"2023-07-30T19:12:37.0780227+00:00","completed":true},{"id":9,"title":"Activity 9","dueDate":"2023-07-30T20:12:37.0780229+00:00","completed":false},{"id":10,"title":"Activity 10","dueDate":"2023-07-30T21:12:37.0780234+00:00","completed":true},{"id":11,"title":"Activity 11","dueDate":"2023-07-30T22:12:37.0780237+00:00","completed":false},{"id":12,"title":"Activity 12","dueDate":"2023-07-30T23:12:37.078024+00:00","completed":true},{"id":13,"title":"Activity 13","dueDate":"2023-07-31T00:12:37.0780243+00:00","completed":false},{"id":14,"title":"Activity 14","dueDate":"2023-07-31T01:12:37.0780245+00:00","completed":true},{"id":15,"title":"Activity 15","dueDate":"2023-07-31T02:12:37.0780248+00:00","completed":false},{"id":16,"title":"Activity 16","dueDate":"2023-07-31T03:12:37.0780251+00:00","completed":true},{"id":17,"title":"Activity 17","dueDate":"2023-07-31T04:12:37.0780254+00:00","completed":false},{"id":18,"title":"Activity 18","dueDate":"2023-07-31T05:12:37.0780258+00:00","completed":true},{"id":19,"title":"Activity 19","dueDate":"2023-07-31T06:12:37.0780261+00:00","completed":false},{"id":20,"title":"Activity 20","dueDate":"2023-07-31T07:12:37.0780263+00:00","completed":true},{"id":21,"title":"Activity 21","dueDate":"2023-07-31T08:12:37.0780266+00:00","completed":false},{"id":22,"title":"Activity 22","dueDate":"2023-07-31T09:12:37.0780269+00:00","completed":true},{"id":23,"title":"Activity 23","dueDate":"2023-07-31T10:12:37.0780272+00:00","completed":false},{"id":24,"title":"Activity 24","dueDate":"2023-07-31T11:12:37.0780274+00:00","completed":true},{"id":25,"title":"Activity 25","dueDate":"2023-07-31T12:12:37.0780277+00:00","completed":false},{"id":26,"title":"Activity 26","dueDate":"2023-07-31T13:12:37.078028+00:00","completed":true},{"id":27,"title":"Activity 27","dueDate":"2023-07-31T14:12:37.0780282+00:00","completed":false},{"id":28,"title":"Activity 28","dueDate":"2023-07-31T15:12:37.0780285+00:00","completed":true},{"id":29,"title":"Activity 29","dueDate":"2023-07-31T16:12:37.0780288+00:00","completed":false},{"id":30,"title":"Activity 30","dueDate":"2023-07-31T17:12:37.0780291+00:00","completed":true}]"
+2023-07-30 16:42:37,015 DEBUG [main] wire:73 -  << "[\r][\n]"
+2023-07-30 16:42:37,016 DEBUG [main] wire:73 -  << "0[\r][\n]"
+2023-07-30 16:42:37,016 DEBUG [main] wire:73 -  << "[\r][\n]"
+2023-07-30 16:42:37,017 DEBUG [main] BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@682bd3c4
+2023-07-30 16:42:37,017 DEBUG [main] BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2023-07-30 16:42:37,058  INFO [main] Demo:165 -  API Response Status Code : 200
+2023-07-30 16:42:37,058  INFO [main] Demo:166 -  API Response Status Line : HTTP/1.1 200 OK
+2023-07-30 16:42:37,080  INFO [main] Demo:167 -  API Response Cookie : {}
+2023-07-30 16:42:37,082  INFO [main] Demo:168 -  API Response Time : 2059
+2023-07-30 16:42:37,082  INFO [main] Demo:169 -  API Headers : Content-Type=application/json; charset=utf-8; v=1.0
+Date=Sun, 30 Jul 2023 11:12:36 GMT
+Server=Kestrel
+Transfer-Encoding=chunked
+api-supported-versions=1.0
+2023-07-30 16:42:37,136  INFO [main] Demo:171 -  API Response Body : [
+    {
+        "id": 1,
+        "title": "Activity 1",
+        "dueDate": "2023-07-30T12:12:37.0780186+00:00",
+        "completed": false
+    },
+    {
+        "id": 2,
+        "title": "Activity 2",
+        "dueDate": "2023-07-30T13:12:37.0780207+00:00",
+        "completed": true
+    },
+    {
+        "id": 3,
+        "title": "Activity 3",
+        "dueDate": "2023-07-30T14:12:37.0780211+00:00",
+        "completed": false
+    },
+    {
+        "id": 4,
+        "title": "Activity 4",
+        "dueDate": "2023-07-30T15:12:37.0780214+00:00",
+        "completed": true
+    },
+    {
+        "id": 5,
+        "title": "Activity 5",
+        "dueDate": "2023-07-30T16:12:37.0780217+00:00",
+        "completed": false
+    },
+    {
+        "id": 6,
+        "title": "Activity 6",
+        "dueDate": "2023-07-30T17:12:37.0780221+00:00",
+        "completed": true
+    },
+    {
+        "id": 7,
+        "title": "Activity 7",
+        "dueDate": "2023-07-30T18:12:37.0780224+00:00",
+        "completed": false
+    },
+    {
+        "id": 8,
+        "title": "Activity 8",
+        "dueDate": "2023-07-30T19:12:37.0780227+00:00",
+        "completed": true
+    },
+    {
+        "id": 9,
+        "title": "Activity 9",
+        "dueDate": "2023-07-30T20:12:37.0780229+00:00",
+        "completed": false
+    },
+    {
+        "id": 10,
+        "title": "Activity 10",
+        "dueDate": "2023-07-30T21:12:37.0780234+00:00",
+        "completed": true
+    },
+    {
+        "id": 11,
+        "title": "Activity 11",
+        "dueDate": "2023-07-30T22:12:37.0780237+00:00",
+        "completed": false
+    },
+    {
+        "id": 12,
+        "title": "Activity 12",
+        "dueDate": "2023-07-30T23:12:37.078024+00:00",
+        "completed": true
+    },
+    {
+        "id": 13,
+        "title": "Activity 13",
+        "dueDate": "2023-07-31T00:12:37.0780243+00:00",
+        "completed": false
+    },
+    {
+        "id": 14,
+        "title": "Activity 14",
+        "dueDate": "2023-07-31T01:12:37.0780245+00:00",
+        "completed": true
+    },
+    {
+        "id": 15,
+        "title": "Activity 15",
+        "dueDate": "2023-07-31T02:12:37.0780248+00:00",
+        "completed": false
+    },
+    {
+        "id": 16,
+        "title": "Activity 16",
+        "dueDate": "2023-07-31T03:12:37.0780251+00:00",
+        "completed": true
+    },
+    {
+        "id": 17,
+        "title": "Activity 17",
+        "dueDate": "2023-07-31T04:12:37.0780254+00:00",
+        "completed": false
+    },
+    {
+        "id": 18,
+        "title": "Activity 18",
+        "dueDate": "2023-07-31T05:12:37.0780258+00:00",
+        "completed": true
+    },
+    {
+        "id": 19,
+        "title": "Activity 19",
+        "dueDate": "2023-07-31T06:12:37.0780261+00:00",
+        "completed": false
+    },
+    {
+        "id": 20,
+        "title": "Activity 20",
+        "dueDate": "2023-07-31T07:12:37.0780263+00:00",
+        "completed": true
+    },
+    {
+        "id": 21,
+        "title": "Activity 21",
+        "dueDate": "2023-07-31T08:12:37.0780266+00:00",
+        "completed": false
+    },
+    {
+        "id": 22,
+        "title": "Activity 22",
+        "dueDate": "2023-07-31T09:12:37.0780269+00:00",
+        "completed": true
+    },
+    {
+        "id": 23,
+        "title": "Activity 23",
+        "dueDate": "2023-07-31T10:12:37.0780272+00:00",
+        "completed": false
+    },
+    {
+        "id": 24,
+        "title": "Activity 24",
+        "dueDate": "2023-07-31T11:12:37.0780274+00:00",
+        "completed": true
+    },
+    {
+        "id": 25,
+        "title": "Activity 25",
+        "dueDate": "2023-07-31T12:12:37.0780277+00:00",
+        "completed": false
+    },
+    {
+        "id": 26,
+        "title": "Activity 26",
+        "dueDate": "2023-07-31T13:12:37.078028+00:00",
+        "completed": true
+    },
+    {
+        "id": 27,
+        "title": "Activity 27",
+        "dueDate": "2023-07-31T14:12:37.0780282+00:00",
+        "completed": false
+    },
+    {
+        "id": 28,
+        "title": "Activity 28",
+        "dueDate": "2023-07-31T15:12:37.0780285+00:00",
+        "completed": true
+    },
+    {
+        "id": 29,
+        "title": "Activity 29",
+        "dueDate": "2023-07-31T16:12:37.0780288+00:00",
+        "completed": false
+    },
+    {
+        "id": 30,
+        "title": "Activity 30",
+        "dueDate": "2023-07-31T17:12:37.0780291+00:00",
+        "completed": true
+    }
+]
+2023-07-30 16:42:37,141  INFO [main] Demo:183 -  Expected API Status Code : 200 Actual API Status Code : 200
+2023-07-30 16:42:37,152  INFO [main] Demo:191 -  Expected API Header : application/json; charset=utf-8; v=1.0 Actual API Header : application/json; charset=utf-8; v=1.0
+2023-07-30 16:42:38,635  INFO [main] Demo:38 -  Service Name : Activities POST API
+2023-07-30 16:42:38,636  INFO [main] Demo:39 -  Thread name : 1
+2023-07-30 16:42:38,685  INFO [main] Demo:90 -  Request Body is : {
+  "id" : 4,
+  "title" : "UCDPL",
+  "dueDate" : "2023-03-20T11:39:04.146Z",
+  "completed" : true
+}
+2023-07-30 16:42:38,719 DEBUG [main] BasicClientConnectionManager:161 - Get connection for route {s}->https://fakerestapi.azurewebsites.net:443
+2023-07-30 16:42:38,720 DEBUG [main] DefaultClientConnectionOperator:177 - Connecting to fakerestapi.azurewebsites.net:443
+2023-07-30 16:42:39,495 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2023-07-30 16:42:39,496 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2023-07-30 16:42:39,496 DEBUG [main] RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2023-07-30 16:42:39,497 DEBUG [main] RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2023-07-30 16:42:39,497 DEBUG [main] DefaultHttpClient:677 - Attempt 1 to execute request
+2023-07-30 16:42:39,498 DEBUG [main] DefaultClientConnection:274 - Sending request: POST /api/v1/activities HTTP/1.1
+2023-07-30 16:42:39,498 DEBUG [main] wire:73 -  >> "POST /api/v1/activities HTTP/1.1[\r][\n]"
+2023-07-30 16:42:39,499 DEBUG [main] wire:73 -  >> "Accept: */*[\r][\n]"
+2023-07-30 16:42:39,499 DEBUG [main] wire:73 -  >> "Content-Type: application/json; charset=utf-8; v=1.0[\r][\n]"
+2023-07-30 16:42:39,500 DEBUG [main] wire:73 -  >> "Content-Length: 104[\r][\n]"
+2023-07-30 16:42:39,500 DEBUG [main] wire:73 -  >> "Host: fakerestapi.azurewebsites.net[\r][\n]"
+2023-07-30 16:42:39,500 DEBUG [main] wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2023-07-30 16:42:39,502 DEBUG [main] wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_302)[\r][\n]"
+2023-07-30 16:42:39,503 DEBUG [main] wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2023-07-30 16:42:39,503 DEBUG [main] wire:73 -  >> "[\r][\n]"
+2023-07-30 16:42:39,504 DEBUG [main] headers:278 - >> POST /api/v1/activities HTTP/1.1
+2023-07-30 16:42:39,504 DEBUG [main] headers:281 - >> Accept: */*
+2023-07-30 16:42:39,504 DEBUG [main] headers:281 - >> Content-Type: application/json; charset=utf-8; v=1.0
+2023-07-30 16:42:39,505 DEBUG [main] headers:281 - >> Content-Length: 104
+2023-07-30 16:42:39,505 DEBUG [main] headers:281 - >> Host: fakerestapi.azurewebsites.net
+2023-07-30 16:42:39,505 DEBUG [main] headers:281 - >> Connection: Keep-Alive
+2023-07-30 16:42:39,506 DEBUG [main] headers:281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_302)
+2023-07-30 16:42:39,507 DEBUG [main] headers:281 - >> Accept-Encoding: gzip,deflate
+2023-07-30 16:42:39,508 DEBUG [main] wire:73 -  >> "{[\r][\n]"
+2023-07-30 16:42:39,508 DEBUG [main] wire:73 -  >> "  "id" : 4,[\r][\n]"
+2023-07-30 16:42:39,509 DEBUG [main] wire:73 -  >> "  "title" : "UCDPL",[\r][\n]"
+2023-07-30 16:42:39,509 DEBUG [main] wire:73 -  >> "  "dueDate" : "2023-03-20T11:39:04.146Z",[\r][\n]"
+2023-07-30 16:42:39,510 DEBUG [main] wire:73 -  >> "  "completed" : true[\r][\n]"
+2023-07-30 16:42:39,510 DEBUG [main] wire:87 -  >> "}"
+2023-07-30 16:42:39,721 DEBUG [main] wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2023-07-30 16:42:39,722 DEBUG [main] wire:73 -  << "Content-Type: application/json; charset=utf-8; v=1.0[\r][\n]"
+2023-07-30 16:42:39,723 DEBUG [main] wire:73 -  << "Date: Sun, 30 Jul 2023 11:12:38 GMT[\r][\n]"
+2023-07-30 16:42:39,723 DEBUG [main] wire:73 -  << "Server: Kestrel[\r][\n]"
+2023-07-30 16:42:39,723 DEBUG [main] wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+2023-07-30 16:42:39,723 DEBUG [main] wire:73 -  << "api-supported-versions: 1.0[\r][\n]"
+2023-07-30 16:42:39,723 DEBUG [main] wire:73 -  << "[\r][\n]"
+2023-07-30 16:42:39,724 DEBUG [main] DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2023-07-30 16:42:39,724 DEBUG [main] headers:262 - << HTTP/1.1 200 OK
+2023-07-30 16:42:39,724 DEBUG [main] headers:265 - << Content-Type: application/json; charset=utf-8; v=1.0
+2023-07-30 16:42:39,725 DEBUG [main] headers:265 - << Date: Sun, 30 Jul 2023 11:12:38 GMT
+2023-07-30 16:42:39,725 DEBUG [main] headers:265 - << Server: Kestrel
+2023-07-30 16:42:39,726 DEBUG [main] headers:265 - << Transfer-Encoding: chunked
+2023-07-30 16:42:39,726 DEBUG [main] headers:265 - << api-supported-versions: 1.0
+2023-07-30 16:42:39,728 DEBUG [main] DefaultHttpClient:504 - Connection can be kept alive indefinitely
+2023-07-30 16:42:39,729 DEBUG [main] RestAssuredHttpBuilder:553 - Parsing response as: application/json; charset=utf-8; v=1.0
+2023-07-30 16:42:39,729 DEBUG [main] RestAssuredHttpBuilder:556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-07-30 16:42:39,733  INFO [main] Demo:158 - 
+2023-07-30 16:42:39,733  INFO [main] Demo:159 - http://localhost
+2023-07-30 16:42:39,733  INFO [main] Demo:160 - 
+2023-07-30 16:42:39,734  INFO [main] Demo:161 - {
+  "id" : 4,
+  "title" : "UCDPL",
+  "dueDate" : "2023-03-20T11:39:04.146Z",
+  "completed" : true
+}
+2023-07-30 16:42:39,734 DEBUG [main] wire:73 -  << "4e[\r][\n]"
+2023-07-30 16:42:39,735 DEBUG [main] wire:87 -  << "{"id":4,"title":"UCDPL","dueDate":"2023-03-20T11:39:04.146Z","completed":true}"
+2023-07-30 16:42:39,735 DEBUG [main] wire:73 -  << "[\r][\n]"
+2023-07-30 16:42:39,735 DEBUG [main] wire:73 -  << "0[\r][\n]"
+2023-07-30 16:42:39,736 DEBUG [main] wire:73 -  << "[\r][\n]"
+2023-07-30 16:42:39,736 DEBUG [main] BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7affc159
+2023-07-30 16:42:39,736 DEBUG [main] BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2023-07-30 16:42:39,736  INFO [main] Demo:165 -  API Response Status Code : 200
+2023-07-30 16:42:39,737  INFO [main] Demo:166 -  API Response Status Line : HTTP/1.1 200 OK
+2023-07-30 16:42:39,737  INFO [main] Demo:167 -  API Response Cookie : {}
+2023-07-30 16:42:39,737  INFO [main] Demo:168 -  API Response Time : 1036
+2023-07-30 16:42:39,737  INFO [main] Demo:169 -  API Headers : Content-Type=application/json; charset=utf-8; v=1.0
+Date=Sun, 30 Jul 2023 11:12:38 GMT
+Server=Kestrel
+Transfer-Encoding=chunked
+api-supported-versions=1.0
+2023-07-30 16:42:39,738  INFO [main] Demo:171 -  API Response Body : {
+    "id": 4,
+    "title": "UCDPL",
+    "dueDate": "2023-03-20T11:39:04.146Z",
+    "completed": true
+}
+2023-07-30 16:42:39,747  INFO [main] Demo:183 -  Expected API Status Code : 200 Actual API Status Code : 200
+2023-07-30 16:42:39,748  INFO [main] Demo:191 -  Expected API Header : application/json; charset=utf-8; v=1.0 Actual API Header : application/json; charset=utf-8; v=1.0
+2023-07-30 16:42:40,113  INFO [main] Demo:38 -  Service Name : Activity details GET API
+2023-07-30 16:42:40,113  INFO [main] Demo:39 -  Thread name : 1
+2023-07-30 16:42:40,114  INFO [main] Demo:90 -  Request Body is : null
+2023-07-30 16:42:40,124 DEBUG [main] BasicClientConnectionManager:161 - Get connection for route {s}->https://fakerestapi.azurewebsites.net:443
+2023-07-30 16:42:40,125 DEBUG [main] DefaultClientConnectionOperator:177 - Connecting to fakerestapi.azurewebsites.net:443
+2023-07-30 16:42:40,893 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2023-07-30 16:42:40,894 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2023-07-30 16:42:40,895 DEBUG [main] RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2023-07-30 16:42:40,895 DEBUG [main] RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2023-07-30 16:42:40,895 DEBUG [main] DefaultHttpClient:677 - Attempt 1 to execute request
+2023-07-30 16:42:40,896 DEBUG [main] DefaultClientConnection:274 - Sending request: POST /api/v1/activities/4 HTTP/1.1
+2023-07-30 16:42:40,896 DEBUG [main] wire:73 -  >> "POST /api/v1/activities/4 HTTP/1.1[\r][\n]"
+2023-07-30 16:42:40,897 DEBUG [main] wire:73 -  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+2023-07-30 16:42:40,898 DEBUG [main] wire:73 -  >> "Accept: */*[\r][\n]"
+2023-07-30 16:42:40,898 DEBUG [main] wire:73 -  >> "Content-Length: 0[\r][\n]"
+2023-07-30 16:42:40,899 DEBUG [main] wire:73 -  >> "Host: fakerestapi.azurewebsites.net[\r][\n]"
+2023-07-30 16:42:40,899 DEBUG [main] wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2023-07-30 16:42:40,899 DEBUG [main] wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_302)[\r][\n]"
+2023-07-30 16:42:40,900 DEBUG [main] wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2023-07-30 16:42:40,900 DEBUG [main] wire:73 -  >> "[\r][\n]"
+2023-07-30 16:42:40,900 DEBUG [main] headers:278 - >> POST /api/v1/activities/4 HTTP/1.1
+2023-07-30 16:42:40,901 DEBUG [main] headers:281 - >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+2023-07-30 16:42:40,901 DEBUG [main] headers:281 - >> Accept: */*
+2023-07-30 16:42:40,901 DEBUG [main] headers:281 - >> Content-Length: 0
+2023-07-30 16:42:40,902 DEBUG [main] headers:281 - >> Host: fakerestapi.azurewebsites.net
+2023-07-30 16:42:40,902 DEBUG [main] headers:281 - >> Connection: Keep-Alive
+2023-07-30 16:42:40,902 DEBUG [main] headers:281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_302)
+2023-07-30 16:42:40,903 DEBUG [main] headers:281 - >> Accept-Encoding: gzip,deflate
+2023-07-30 16:42:41,096 DEBUG [main] wire:73 -  << "HTTP/1.1 405 Method Not Allowed[\r][\n]"
+2023-07-30 16:42:41,097 DEBUG [main] wire:73 -  << "Content-Length: 0[\r][\n]"
+2023-07-30 16:42:41,098 DEBUG [main] wire:73 -  << "Date: Sun, 30 Jul 2023 11:12:40 GMT[\r][\n]"
+2023-07-30 16:42:41,098 DEBUG [main] wire:73 -  << "Server: Kestrel[\r][\n]"
+2023-07-30 16:42:41,098 DEBUG [main] wire:73 -  << "Allow: DELETE, GET, PUT[\r][\n]"
+2023-07-30 16:42:41,099 DEBUG [main] wire:73 -  << "[\r][\n]"
+2023-07-30 16:42:41,099 DEBUG [main] DefaultClientConnection:259 - Receiving response: HTTP/1.1 405 Method Not Allowed
+2023-07-30 16:42:41,100 DEBUG [main] headers:262 - << HTTP/1.1 405 Method Not Allowed
+2023-07-30 16:42:41,101 DEBUG [main] headers:265 - << Content-Length: 0
+2023-07-30 16:42:41,101 DEBUG [main] headers:265 - << Date: Sun, 30 Jul 2023 11:12:40 GMT
+2023-07-30 16:42:41,101 DEBUG [main] headers:265 - << Server: Kestrel
+2023-07-30 16:42:41,102 DEBUG [main] headers:265 - << Allow: DELETE, GET, PUT
+2023-07-30 16:42:41,103 DEBUG [main] DefaultHttpClient:504 - Connection can be kept alive indefinitely
+2023-07-30 16:42:41,104  INFO [main] Demo:158 - 
+2023-07-30 16:42:41,105  INFO [main] Demo:159 - http://localhost
+2023-07-30 16:42:41,105  INFO [main] Demo:160 - 
+2023-07-30 16:42:41,105  INFO [main] Demo:161 - 
+2023-07-30 16:42:41,107  INFO [main] Demo:165 -  API Response Status Code : 405
+2023-07-30 16:42:41,107  INFO [main] Demo:166 -  API Response Status Line : HTTP/1.1 405 Method Not Allowed
+2023-07-30 16:42:41,107  INFO [main] Demo:167 -  API Response Cookie : {}
+2023-07-30 16:42:41,107  INFO [main] Demo:168 -  API Response Time : 985
+2023-07-30 16:42:41,108  INFO [main] Demo:169 -  API Headers : Content-Length=0
+Date=Sun, 30 Jul 2023 11:12:40 GMT
+Server=Kestrel
+Allow=DELETE, GET, PUT
+2023-07-30 16:42:41,109  INFO [main] Demo:171 -  API Response Body : 
+2023-07-30 16:42:41,110  INFO [main] Demo:90 -  Request Body is : null
+2023-07-30 16:42:41,132 DEBUG [main] BasicClientConnectionManager:161 - Get connection for route {s}->https://fakerestapi.azurewebsites.net:443
+2023-07-30 16:42:41,132 DEBUG [main] DefaultClientConnectionOperator:177 - Connecting to fakerestapi.azurewebsites.net:443
+2023-07-30 16:42:41,911 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2023-07-30 16:42:41,911 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2023-07-30 16:42:41,912 DEBUG [main] RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2023-07-30 16:42:41,912 DEBUG [main] RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2023-07-30 16:42:41,913 DEBUG [main] DefaultHttpClient:677 - Attempt 1 to execute request
+2023-07-30 16:42:41,914 DEBUG [main] DefaultClientConnection:274 - Sending request: GET /api/v1/activities/4 HTTP/1.1
+2023-07-30 16:42:41,914 DEBUG [main] wire:73 -  >> "GET /api/v1/activities/4 HTTP/1.1[\r][\n]"
+2023-07-30 16:42:41,915 DEBUG [main] wire:73 -  >> "Accept: */*[\r][\n]"
+2023-07-30 16:42:41,916 DEBUG [main] wire:73 -  >> "Host: fakerestapi.azurewebsites.net[\r][\n]"
+2023-07-30 16:42:41,916 DEBUG [main] wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2023-07-30 16:42:41,917 DEBUG [main] wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_302)[\r][\n]"
+2023-07-30 16:42:41,917 DEBUG [main] wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2023-07-30 16:42:41,917 DEBUG [main] wire:73 -  >> "[\r][\n]"
+2023-07-30 16:42:41,918 DEBUG [main] headers:278 - >> GET /api/v1/activities/4 HTTP/1.1
+2023-07-30 16:42:41,918 DEBUG [main] headers:281 - >> Accept: */*
+2023-07-30 16:42:41,919 DEBUG [main] headers:281 - >> Host: fakerestapi.azurewebsites.net
+2023-07-30 16:42:41,919 DEBUG [main] headers:281 - >> Connection: Keep-Alive
+2023-07-30 16:42:41,919 DEBUG [main] headers:281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_302)
+2023-07-30 16:42:41,920 DEBUG [main] headers:281 - >> Accept-Encoding: gzip,deflate
+2023-07-30 16:42:42,134 DEBUG [main] wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2023-07-30 16:42:42,135 DEBUG [main] wire:73 -  << "Content-Type: application/json; charset=utf-8; v=1.0[\r][\n]"
+2023-07-30 16:42:42,135 DEBUG [main] wire:73 -  << "Date: Sun, 30 Jul 2023 11:12:41 GMT[\r][\n]"
+2023-07-30 16:42:42,136 DEBUG [main] wire:73 -  << "Server: Kestrel[\r][\n]"
+2023-07-30 16:42:42,136 DEBUG [main] wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+2023-07-30 16:42:42,137 DEBUG [main] wire:73 -  << "api-supported-versions: 1.0[\r][\n]"
+2023-07-30 16:42:42,137 DEBUG [main] wire:73 -  << "[\r][\n]"
+2023-07-30 16:42:42,138 DEBUG [main] DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2023-07-30 16:42:42,138 DEBUG [main] headers:262 - << HTTP/1.1 200 OK
+2023-07-30 16:42:42,139 DEBUG [main] headers:265 - << Content-Type: application/json; charset=utf-8; v=1.0
+2023-07-30 16:42:42,139 DEBUG [main] headers:265 - << Date: Sun, 30 Jul 2023 11:12:41 GMT
+2023-07-30 16:42:42,140 DEBUG [main] headers:265 - << Server: Kestrel
+2023-07-30 16:42:42,141 DEBUG [main] headers:265 - << Transfer-Encoding: chunked
+2023-07-30 16:42:42,142 DEBUG [main] headers:265 - << api-supported-versions: 1.0
+2023-07-30 16:42:42,142 DEBUG [main] DefaultHttpClient:504 - Connection can be kept alive indefinitely
+2023-07-30 16:42:42,143 DEBUG [main] RestAssuredHttpBuilder:553 - Parsing response as: application/json; charset=utf-8; v=1.0
+2023-07-30 16:42:42,144 DEBUG [main] RestAssuredHttpBuilder:556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-07-30 16:42:42,146  INFO [main] Demo:158 - 
+2023-07-30 16:42:42,147  INFO [main] Demo:159 - http://localhost
+2023-07-30 16:42:42,147  INFO [main] Demo:160 - 
+2023-07-30 16:42:42,147  INFO [main] Demo:161 - 
+2023-07-30 16:42:42,148 DEBUG [main] wire:73 -  << "5c[\r][\n]"
+2023-07-30 16:42:42,149 DEBUG [main] wire:87 -  << "{"id":4,"title":"Activity 4","dueDate":"2023-07-30T15:12:42.2911618+00:00","completed":true}"
+2023-07-30 16:42:42,150 DEBUG [main] wire:73 -  << "[\r][\n]"
+2023-07-30 16:42:42,150 DEBUG [main] wire:73 -  << "0[\r][\n]"
+2023-07-30 16:42:42,151 DEBUG [main] wire:73 -  << "[\r][\n]"
+2023-07-30 16:42:42,152 DEBUG [main] BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5ff00507
+2023-07-30 16:42:42,152 DEBUG [main] BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2023-07-30 16:42:42,153  INFO [main] Demo:165 -  API Response Status Code : 200
+2023-07-30 16:42:42,153  INFO [main] Demo:166 -  API Response Status Line : HTTP/1.1 200 OK
+2023-07-30 16:42:42,154  INFO [main] Demo:167 -  API Response Cookie : {}
+2023-07-30 16:42:42,154  INFO [main] Demo:168 -  API Response Time : 1028
+2023-07-30 16:42:42,155  INFO [main] Demo:169 -  API Headers : Content-Type=application/json; charset=utf-8; v=1.0
+Date=Sun, 30 Jul 2023 11:12:41 GMT
+Server=Kestrel
+Transfer-Encoding=chunked
+api-supported-versions=1.0
+2023-07-30 16:42:42,157  INFO [main] Demo:171 -  API Response Body : {
+    "id": 4,
+    "title": "Activity 4",
+    "dueDate": "2023-07-30T15:12:42.2911618+00:00",
+    "completed": true
+}
+2023-07-30 16:42:42,158  INFO [main] Demo:183 -  Expected API Status Code : 200 Actual API Status Code : 200
+2023-07-30 16:42:42,159  INFO [main] Demo:191 -  Expected API Header : application/json; charset=utf-8; v=1.0 Actual API Header : application/json; charset=utf-8; v=1.0
+2023-07-30 16:42:42,198  INFO [main] Demo:38 -  Service Name : Activities PUT API
+2023-07-30 16:42:42,199  INFO [main] Demo:39 -  Thread name : 1
+2023-07-30 16:42:42,220  INFO [main] Demo:90 -  Request Body is : {
+  "id" : 4,
+  "title" : "Activityy",
+  "dueDate" : "2023-03-21T17:58:49.5418856+00:00",
+  "completed" : true
+}
+2023-07-30 16:42:42,244 DEBUG [main] BasicClientConnectionManager:161 - Get connection for route {s}->https://fakerestapi.azurewebsites.net:443
+2023-07-30 16:42:42,244 DEBUG [main] DefaultClientConnectionOperator:177 - Connecting to fakerestapi.azurewebsites.net:443
+2023-07-30 16:42:43,036 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2023-07-30 16:42:43,037 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2023-07-30 16:42:43,037 DEBUG [main] RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2023-07-30 16:42:43,038 DEBUG [main] RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2023-07-30 16:42:43,038 DEBUG [main] DefaultHttpClient:677 - Attempt 1 to execute request
+2023-07-30 16:42:43,039 DEBUG [main] DefaultClientConnection:274 - Sending request: PUT /api/v1/activities/4 HTTP/1.1
+2023-07-30 16:42:43,039 DEBUG [main] wire:73 -  >> "PUT /api/v1/activities/4 HTTP/1.1[\r][\n]"
+2023-07-30 16:42:43,040 DEBUG [main] wire:73 -  >> "Accept: */*[\r][\n]"
+2023-07-30 16:42:43,040 DEBUG [main] wire:73 -  >> "Content-Type: application/json[\r][\n]"
+2023-07-30 16:42:43,040 DEBUG [main] wire:73 -  >> "Content-Length: 117[\r][\n]"
+2023-07-30 16:42:43,041 DEBUG [main] wire:73 -  >> "Host: fakerestapi.azurewebsites.net[\r][\n]"
+2023-07-30 16:42:43,041 DEBUG [main] wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2023-07-30 16:42:43,041 DEBUG [main] wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_302)[\r][\n]"
+2023-07-30 16:42:43,042 DEBUG [main] wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2023-07-30 16:42:43,043 DEBUG [main] wire:73 -  >> "[\r][\n]"
+2023-07-30 16:42:43,043 DEBUG [main] headers:278 - >> PUT /api/v1/activities/4 HTTP/1.1
+2023-07-30 16:42:43,043 DEBUG [main] headers:281 - >> Accept: */*
+2023-07-30 16:42:43,044 DEBUG [main] headers:281 - >> Content-Type: application/json
+2023-07-30 16:42:43,044 DEBUG [main] headers:281 - >> Content-Length: 117
+2023-07-30 16:42:43,044 DEBUG [main] headers:281 - >> Host: fakerestapi.azurewebsites.net
+2023-07-30 16:42:43,045 DEBUG [main] headers:281 - >> Connection: Keep-Alive
+2023-07-30 16:42:43,045 DEBUG [main] headers:281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_302)
+2023-07-30 16:42:43,045 DEBUG [main] headers:281 - >> Accept-Encoding: gzip,deflate
+2023-07-30 16:42:43,046 DEBUG [main] wire:73 -  >> "{[\r][\n]"
+2023-07-30 16:42:43,046 DEBUG [main] wire:73 -  >> "  "id" : 4,[\r][\n]"
+2023-07-30 16:42:43,046 DEBUG [main] wire:73 -  >> "  "title" : "Activityy",[\r][\n]"
+2023-07-30 16:42:43,046 DEBUG [main] wire:73 -  >> "  "dueDate" : "2023-03-21T17:58:49.5418856+00:00",[\r][\n]"
+2023-07-30 16:42:43,047 DEBUG [main] wire:73 -  >> "  "completed" : true[\r][\n]"
+2023-07-30 16:42:43,047 DEBUG [main] wire:87 -  >> "}"
+2023-07-30 16:42:43,253 DEBUG [main] wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2023-07-30 16:42:43,254 DEBUG [main] wire:73 -  << "Content-Type: application/json; charset=utf-8; v=1.0[\r][\n]"
+2023-07-30 16:42:43,255 DEBUG [main] wire:73 -  << "Date: Sun, 30 Jul 2023 11:12:42 GMT[\r][\n]"
+2023-07-30 16:42:43,256 DEBUG [main] wire:73 -  << "Server: Kestrel[\r][\n]"
+2023-07-30 16:42:43,256 DEBUG [main] wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+2023-07-30 16:42:43,257 DEBUG [main] wire:73 -  << "api-supported-versions: 1.0[\r][\n]"
+2023-07-30 16:42:43,257 DEBUG [main] wire:73 -  << "[\r][\n]"
+2023-07-30 16:42:43,258 DEBUG [main] DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2023-07-30 16:42:43,258 DEBUG [main] headers:262 - << HTTP/1.1 200 OK
+2023-07-30 16:42:43,258 DEBUG [main] headers:265 - << Content-Type: application/json; charset=utf-8; v=1.0
+2023-07-30 16:42:43,259 DEBUG [main] headers:265 - << Date: Sun, 30 Jul 2023 11:12:42 GMT
+2023-07-30 16:42:43,259 DEBUG [main] headers:265 - << Server: Kestrel
+2023-07-30 16:42:43,259 DEBUG [main] headers:265 - << Transfer-Encoding: chunked
+2023-07-30 16:42:43,260 DEBUG [main] headers:265 - << api-supported-versions: 1.0
+2023-07-30 16:42:43,260 DEBUG [main] DefaultHttpClient:504 - Connection can be kept alive indefinitely
+2023-07-30 16:42:43,261 DEBUG [main] RestAssuredHttpBuilder:553 - Parsing response as: application/json; charset=utf-8; v=1.0
+2023-07-30 16:42:43,261 DEBUG [main] RestAssuredHttpBuilder:556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-07-30 16:42:43,262  INFO [main] Demo:158 - 
+2023-07-30 16:42:43,263  INFO [main] Demo:159 - http://localhost
+2023-07-30 16:42:43,263  INFO [main] Demo:160 - 
+2023-07-30 16:42:43,263  INFO [main] Demo:161 - {
+  "id" : 4,
+  "title" : "Activityy",
+  "dueDate" : "2023-03-21T17:58:49.5418856+00:00",
+  "completed" : true
+}
+2023-07-30 16:42:43,264 DEBUG [main] wire:73 -  << "5b[\r][\n]"
+2023-07-30 16:42:43,264 DEBUG [main] wire:87 -  << "{"id":4,"title":"Activityy","dueDate":"2023-03-21T17:58:49.5418856+00:00","completed":true}"
+2023-07-30 16:42:43,264 DEBUG [main] wire:73 -  << "[\r][\n]"
+2023-07-30 16:42:43,264 DEBUG [main] wire:73 -  << "0[\r][\n]"
+2023-07-30 16:42:43,264 DEBUG [main] wire:73 -  << "[\r][\n]"
+2023-07-30 16:42:43,264 DEBUG [main] BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1de4bee0
+2023-07-30 16:42:43,265 DEBUG [main] BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2023-07-30 16:42:43,267  INFO [main] Demo:165 -  API Response Status Code : 200
+2023-07-30 16:42:43,267  INFO [main] Demo:166 -  API Response Status Line : HTTP/1.1 200 OK
+2023-07-30 16:42:43,267  INFO [main] Demo:167 -  API Response Cookie : {}
+2023-07-30 16:42:43,267  INFO [main] Demo:168 -  API Response Time : 1025
+2023-07-30 16:42:43,267  INFO [main] Demo:169 -  API Headers : Content-Type=application/json; charset=utf-8; v=1.0
+Date=Sun, 30 Jul 2023 11:12:42 GMT
+Server=Kestrel
+Transfer-Encoding=chunked
+api-supported-versions=1.0
+2023-07-30 16:42:43,269  INFO [main] Demo:171 -  API Response Body : {
+    "id": 4,
+    "title": "Activityy",
+    "dueDate": "2023-03-21T17:58:49.5418856+00:00",
+    "completed": true
+}
+2023-07-30 16:42:43,280  INFO [main] Demo:183 -  Expected API Status Code : 200 Actual API Status Code : 200
+2023-07-30 16:42:43,281  INFO [main] Demo:191 -  Expected API Header : application/json; charset=utf-8; v=1.0 Actual API Header : application/json; charset=utf-8; v=1.0
+2023-07-30 16:42:43,305  INFO [main] Demo:38 -  Service Name : Activities DELETE API
+2023-07-30 16:42:43,305  INFO [main] Demo:39 -  Thread name : 1
+2023-07-30 16:42:43,306  INFO [main] Demo:90 -  Request Body is : null
+2023-07-30 16:42:43,317 DEBUG [main] BasicClientConnectionManager:161 - Get connection for route {s}->https://fakerestapi.azurewebsites.net:443
+2023-07-30 16:42:43,317 DEBUG [main] DefaultClientConnectionOperator:177 - Connecting to fakerestapi.azurewebsites.net:443
+2023-07-30 16:42:44,082 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2023-07-30 16:42:44,082 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2023-07-30 16:42:44,083 DEBUG [main] RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2023-07-30 16:42:44,083 DEBUG [main] RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2023-07-30 16:42:44,084 DEBUG [main] DefaultHttpClient:677 - Attempt 1 to execute request
+2023-07-30 16:42:44,084 DEBUG [main] DefaultClientConnection:274 - Sending request: POST /api/v1/activities/4 HTTP/1.1
+2023-07-30 16:42:44,084 DEBUG [main] wire:73 -  >> "POST /api/v1/activities/4 HTTP/1.1[\r][\n]"
+2023-07-30 16:42:44,086 DEBUG [main] wire:73 -  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+2023-07-30 16:42:44,087 DEBUG [main] wire:73 -  >> "Accept: */*[\r][\n]"
+2023-07-30 16:42:44,087 DEBUG [main] wire:73 -  >> "Content-Length: 0[\r][\n]"
+2023-07-30 16:42:44,088 DEBUG [main] wire:73 -  >> "Host: fakerestapi.azurewebsites.net[\r][\n]"
+2023-07-30 16:42:44,088 DEBUG [main] wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2023-07-30 16:42:44,089 DEBUG [main] wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_302)[\r][\n]"
+2023-07-30 16:42:44,089 DEBUG [main] wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2023-07-30 16:42:44,090 DEBUG [main] wire:73 -  >> "[\r][\n]"
+2023-07-30 16:42:44,090 DEBUG [main] headers:278 - >> POST /api/v1/activities/4 HTTP/1.1
+2023-07-30 16:42:44,091 DEBUG [main] headers:281 - >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+2023-07-30 16:42:44,091 DEBUG [main] headers:281 - >> Accept: */*
+2023-07-30 16:42:44,091 DEBUG [main] headers:281 - >> Content-Length: 0
+2023-07-30 16:42:44,092 DEBUG [main] headers:281 - >> Host: fakerestapi.azurewebsites.net
+2023-07-30 16:42:44,092 DEBUG [main] headers:281 - >> Connection: Keep-Alive
+2023-07-30 16:42:44,092 DEBUG [main] headers:281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_302)
+2023-07-30 16:42:44,093 DEBUG [main] headers:281 - >> Accept-Encoding: gzip,deflate
+2023-07-30 16:42:44,275 DEBUG [main] wire:73 -  << "HTTP/1.1 405 Method Not Allowed[\r][\n]"
+2023-07-30 16:42:44,276 DEBUG [main] wire:73 -  << "Content-Length: 0[\r][\n]"
+2023-07-30 16:42:44,276 DEBUG [main] wire:73 -  << "Date: Sun, 30 Jul 2023 11:12:43 GMT[\r][\n]"
+2023-07-30 16:42:44,277 DEBUG [main] wire:73 -  << "Server: Kestrel[\r][\n]"
+2023-07-30 16:42:44,277 DEBUG [main] wire:73 -  << "Allow: DELETE, GET, PUT[\r][\n]"
+2023-07-30 16:42:44,278 DEBUG [main] wire:73 -  << "[\r][\n]"
+2023-07-30 16:42:44,278 DEBUG [main] DefaultClientConnection:259 - Receiving response: HTTP/1.1 405 Method Not Allowed
+2023-07-30 16:42:44,279 DEBUG [main] headers:262 - << HTTP/1.1 405 Method Not Allowed
+2023-07-30 16:42:44,279 DEBUG [main] headers:265 - << Content-Length: 0
+2023-07-30 16:42:44,279 DEBUG [main] headers:265 - << Date: Sun, 30 Jul 2023 11:12:43 GMT
+2023-07-30 16:42:44,280 DEBUG [main] headers:265 - << Server: Kestrel
+2023-07-30 16:42:44,280 DEBUG [main] headers:265 - << Allow: DELETE, GET, PUT
+2023-07-30 16:42:44,281 DEBUG [main] DefaultHttpClient:504 - Connection can be kept alive indefinitely
+2023-07-30 16:42:44,282  INFO [main] Demo:158 - 
+2023-07-30 16:42:44,283  INFO [main] Demo:159 - http://localhost
+2023-07-30 16:42:44,283  INFO [main] Demo:160 - 
+2023-07-30 16:42:44,283  INFO [main] Demo:161 - 
+2023-07-30 16:42:44,284  INFO [main] Demo:165 -  API Response Status Code : 405
+2023-07-30 16:42:44,284  INFO [main] Demo:166 -  API Response Status Line : HTTP/1.1 405 Method Not Allowed
+2023-07-30 16:42:44,284  INFO [main] Demo:167 -  API Response Cookie : {}
+2023-07-30 16:42:44,284  INFO [main] Demo:168 -  API Response Time : 969
+2023-07-30 16:42:44,284  INFO [main] Demo:169 -  API Headers : Content-Length=0
+Date=Sun, 30 Jul 2023 11:12:43 GMT
+Server=Kestrel
+Allow=DELETE, GET, PUT
+2023-07-30 16:42:44,285  INFO [main] Demo:171 -  API Response Body : 
+2023-07-30 16:42:44,287  INFO [main] Demo:90 -  Request Body is : null
+2023-07-30 16:42:44,300 DEBUG [main] BasicClientConnectionManager:161 - Get connection for route {s}->https://fakerestapi.azurewebsites.net:443
+2023-07-30 16:42:44,302 DEBUG [main] DefaultClientConnectionOperator:177 - Connecting to fakerestapi.azurewebsites.net:443
+2023-07-30 16:42:45,070 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2023-07-30 16:42:45,071 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2023-07-30 16:42:45,071 DEBUG [main] RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2023-07-30 16:42:45,071 DEBUG [main] RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2023-07-30 16:42:45,072 DEBUG [main] DefaultHttpClient:677 - Attempt 1 to execute request
+2023-07-30 16:42:45,072 DEBUG [main] DefaultClientConnection:274 - Sending request: DELETE /api/v1/activities/4 HTTP/1.1
+2023-07-30 16:42:45,072 DEBUG [main] wire:73 -  >> "DELETE /api/v1/activities/4 HTTP/1.1[\r][\n]"
+2023-07-30 16:42:45,073 DEBUG [main] wire:73 -  >> "Accept: */*[\r][\n]"
+2023-07-30 16:42:45,073 DEBUG [main] wire:73 -  >> "Host: fakerestapi.azurewebsites.net[\r][\n]"
+2023-07-30 16:42:45,073 DEBUG [main] wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2023-07-30 16:42:45,074 DEBUG [main] wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_302)[\r][\n]"
+2023-07-30 16:42:45,074 DEBUG [main] wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2023-07-30 16:42:45,075 DEBUG [main] wire:73 -  >> "[\r][\n]"
+2023-07-30 16:42:45,075 DEBUG [main] headers:278 - >> DELETE /api/v1/activities/4 HTTP/1.1
+2023-07-30 16:42:45,075 DEBUG [main] headers:281 - >> Accept: */*
+2023-07-30 16:42:45,076 DEBUG [main] headers:281 - >> Host: fakerestapi.azurewebsites.net
+2023-07-30 16:42:45,076 DEBUG [main] headers:281 - >> Connection: Keep-Alive
+2023-07-30 16:42:45,076 DEBUG [main] headers:281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_302)
+2023-07-30 16:42:45,077 DEBUG [main] headers:281 - >> Accept-Encoding: gzip,deflate
+2023-07-30 16:42:45,290 DEBUG [main] wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2023-07-30 16:42:45,291 DEBUG [main] wire:73 -  << "Content-Length: 0[\r][\n]"
+2023-07-30 16:42:45,292 DEBUG [main] wire:73 -  << "Date: Sun, 30 Jul 2023 11:12:44 GMT[\r][\n]"
+2023-07-30 16:42:45,293 DEBUG [main] wire:73 -  << "Server: Kestrel[\r][\n]"
+2023-07-30 16:42:45,293 DEBUG [main] wire:73 -  << "api-supported-versions: 1.0[\r][\n]"
+2023-07-30 16:42:45,294 DEBUG [main] wire:73 -  << "[\r][\n]"
+2023-07-30 16:42:45,295 DEBUG [main] DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2023-07-30 16:42:45,295 DEBUG [main] headers:262 - << HTTP/1.1 200 OK
+2023-07-30 16:42:45,296 DEBUG [main] headers:265 - << Content-Length: 0
+2023-07-30 16:42:45,297 DEBUG [main] headers:265 - << Date: Sun, 30 Jul 2023 11:12:44 GMT
+2023-07-30 16:42:45,297 DEBUG [main] headers:265 - << Server: Kestrel
+2023-07-30 16:42:45,298 DEBUG [main] headers:265 - << api-supported-versions: 1.0
+2023-07-30 16:42:45,299 DEBUG [main] DefaultHttpClient:504 - Connection can be kept alive indefinitely
+2023-07-30 16:42:45,300  INFO [main] Demo:158 - 
+2023-07-30 16:42:45,301  INFO [main] Demo:159 - http://localhost
+2023-07-30 16:42:45,301  INFO [main] Demo:160 - 
+2023-07-30 16:42:45,301  INFO [main] Demo:161 - 
+2023-07-30 16:42:45,301  INFO [main] Demo:165 -  API Response Status Code : 200
+2023-07-30 16:42:45,301  INFO [main] Demo:166 -  API Response Status Line : HTTP/1.1 200 OK
+2023-07-30 16:42:45,302  INFO [main] Demo:167 -  API Response Cookie : {}
+2023-07-30 16:42:45,302  INFO [main] Demo:168 -  API Response Time : 1007
+2023-07-30 16:42:45,302  INFO [main] Demo:169 -  API Headers : Content-Length=0
+Date=Sun, 30 Jul 2023 11:12:44 GMT
+Server=Kestrel
+api-supported-versions=1.0
+2023-07-30 16:42:45,303  INFO [main] Demo:171 -  API Response Body : 
+2023-07-30 16:42:45,304  INFO [main] Demo:183 -  Expected API Status Code : 200 Actual API Status Code : 200

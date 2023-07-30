@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "default": {},
+  "title": "Root Schema",
+  "required": [
+    "id",
+    "title",
+    "dueDate",
+    "completed"
+  ],
+  "properties": {
+    "id": {
+      "type": "integer",
+      "default": 0,
+      "title": "The id Schema",
+      "examples": [
+        2
+      ]
+    },
+    "title": {
+      "type": "string",
+      "default": "",
+      "title": "The title Schema",
+      "examples": [
+        "AavBsCdTL"
+      ]
+    },
+    "dueDate": {
+      "type": "string",
+      "default": "",
+      "title": "The dueDate Schema",
+      "examples": [
+        "2023-04-09T11:39:04.146Z"
+      ]
+    },
+    "completed": {
+      "type": "boolean",
+      "default": false,
+      "title": "The completed Schema",
+      "examples": [
+        true
+      ]
+    }
+  },
+  "examples": [{
+    "id": 2,
+    "title": "AavBsCdTL",
+    "dueDate": "2023-04-09T11:39:04.146Z",
+    "completed": true
+  }]
+}
